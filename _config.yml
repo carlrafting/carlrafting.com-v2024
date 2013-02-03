@@ -1,0 +1,6 @@
+auto: true
+server: true
+permalink: /:title
+pygments: true
+
+exclude: ['import.sh']
