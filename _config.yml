@@ -3,4 +3,4 @@ server: true
 permalink: /:title
 pygments: true
 
-exclude: ['import.sh']
+exclude: ['import.sh', 'config', 'scss']

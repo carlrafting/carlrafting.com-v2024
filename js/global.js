@@ -116,9 +116,16 @@ var designGrid = (function () {
 
 }());
 
-(function (w, document) {
-  w.designGrid.init({ column_count: 8 });
+var utilities = (function (selector) {
+  var foo;
+  if (document.querySelectorAll) {
+    foo = document.querySelectorAll(selector);
+  } else {
+    return;
+  }
   
+  console.log(foo)
+
   var hasClass = function(ele,cls) {
     return ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
   },
@@ -128,9 +135,18 @@ var designGrid = (function () {
       var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
       ele.className = ele.className.replace(reg,' ');
     }
-  },
+  };
 
-  header = document.getElementsByClassName('header')[0],
+  window.$ = utilities;
+  
+  return {
+    hasClass: hasClass,
+    removeClass: removeClass 
+  }
+});
+
+(function (w, document, $) {
+  var header = document.getElementsByClassName('header')[0],
   main = document.getElementsByClassName('main')[0],
   nav_toggle = document.getElementsByClassName('jump-nav')[0],
   nav = document.getElementById('nav');
@@ -142,13 +158,12 @@ var designGrid = (function () {
   nav_toggle.innerHTML = 'Toggle navigation';
   nav_toggle.addEventListener('click', function (event) {
     event.preventDefault();
-    if (!hasClass(nav, 'nav-active')) {
+    if (!$.hasClass(nav, 'nav-active')) {
       nav.className += ' ' + 'nav-active';
       return;
     } 
-    if (hasClass(nav, 'nav-active')) {
-      removeClass(nav, 'nav-active');
+    if ($.hasClass(nav, 'nav-active')) {
+      $.removeClass(nav, 'nav-active');
     }    
   }, false);
-// */
-}(this, this.document));
+}(this, this.document, this.utilities));
