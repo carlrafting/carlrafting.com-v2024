@@ -188,3 +188,7 @@ Here are some elements that usually is contained within other elements.
 It's also possible to combine some of the elements for fun effects, for example @ins@ together with @strong@ and @i@.
 
 This is *__+totally awesome+__*
+
+h2. Horizontal rule
+
+<hr>
