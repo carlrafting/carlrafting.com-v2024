@@ -4,3 +4,7 @@ title: Foobar
 ---
 
 Some text...
+
+Well it's not much for the world really.
+
+But it's always a test innit?
