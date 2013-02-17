@@ -25,17 +25,19 @@
 <a class="header-title" href="/"><span>Carl Räfting</span></a>
 {% endif %}
 
-<a class="jump-nav" href="#nav">Jump to navigation</a>
-
 </div>
 
 <hr>
 
 <div class="main" role="main">
+<div class="main-content">
 
 {{ content }}
 
 </div>
+</div>
+
+<hr>
 
 <div class="nav" id="nav">
 <ul>
@@ -46,9 +48,12 @@
 
 <hr>
 
-<div class="footer" role="contentinfo">
-<p class="copyright"><small>&copy; {{ 'now' | date: "%Y" }} Carl Räfting.</small></p>
 <div class="jump-top"><a href="#">Jump to top</a></div>
+
+<hr>
+
+<div class="footer" role="contentinfo">
+<p class="copyright"><small>&copy; {{ 'now' | date: "%Y" }} Carl Räfting.</small> <br> <a href="/styleguide/">Styleguide</a></p>
 </div>
 
 <script src="/js/global.js"></script>

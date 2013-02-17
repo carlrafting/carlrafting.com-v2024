@@ -236,14 +236,21 @@ h1 {
   font-family: "AdelleBasic-BoldItalic", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   padding-top: .5em;
   margin-bottom: 1.5em;
+  text-align: center;
+}
+@media screen and (min-width: 40em) {
+  /* line 117, ../scss/global.scss */
+  h1 {
+    font-size: 4em;
+  }
 }
 
-/* line 126, ../scss/global.scss */
+/* line 134, ../scss/global.scss */
 h2, h4, h5, h6 {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-/* line 130, ../scss/global.scss */
+/* line 138, ../scss/global.scss */
 h2 {
   font-family: "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.5em;
@@ -251,7 +258,7 @@ h2 {
   margin-bottom: 1em;
 }
 
-/* line 137, ../scss/global.scss */
+/* line 145, ../scss/global.scss */
 h3 {
   font-family: "AdelleBasic-BoldItalic", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.25em;
@@ -262,28 +269,28 @@ h3 {
 
 /* @end headings */
 /* @group shared */
-/* line 149, ../scss/global.scss */
+/* line 157, ../scss/global.scss */
 p, ul, ol, dl, form, pre {
   margin-bottom: 1.5em;
 }
 
 /* @end shared */
 /* @group links */
-/* line 157, ../scss/global.scss */
+/* line 165, ../scss/global.scss */
 a {
   color: #c5171a;
   text-decoration: none;
   border-bottom: 2px solid #f0c5c6;
 }
 
-/* line 163, ../scss/global.scss */
+/* line 171, ../scss/global.scss */
 a:hover,
 a:focus {
   color: #ae151d;
   border-color: #ae151d;
 }
 
-/* line 167, ../scss/global.scss */
+/* line 175, ../scss/global.scss */
 a:active {
   color: #600a0f;
   border-color: #600a0f;
@@ -291,18 +298,18 @@ a:active {
 
 /* @end links */
 /* @group quotes */
-/* line 176, ../scss/global.scss */
+/* line 184, ../scss/global.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 177, ../scss/global.scss */
+/* line 185, ../scss/global.scss */
 blockquote:before, blockquote:after {
   content: '';
   content: none;
 }
 
-/* line 182, ../scss/global.scss */
+/* line 190, ../scss/global.scss */
 q:before, q:after {
   content: '';
   content: none;
@@ -310,7 +317,7 @@ q:before, q:after {
 
 /* @end quotes */
 /* @group tables */
-/* line 191, ../scss/global.scss */
+/* line 199, ../scss/global.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -318,12 +325,12 @@ table {
 
 /* @end tables */
 /* @group forms */
-/* line 200, ../scss/global.scss */
+/* line 208, ../scss/global.scss */
 form {
   margin: 0;
 }
 
-/* line 207, ../scss/global.scss */
+/* line 215, ../scss/global.scss */
 button,
 input,
 select,
@@ -334,14 +341,14 @@ textarea {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-/* line 214, ../scss/global.scss */
+/* line 222, ../scss/global.scss */
 input[type="text"] {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* line 221, ../scss/global.scss */
+/* line 229, ../scss/global.scss */
 button[disabled],
 input[disabled] {
   cursor: not-allowed;
@@ -350,113 +357,94 @@ input[disabled] {
 /* @end forms */
 /* @end elements */
 /* @group header */
-/* line 231, ../scss/global.scss */
+/* line 239, ../scss/global.scss */
 .header {
   color: #fff;
   background: #c21720;
+  padding-top: 1em;
 }
 
-/* line 236, ../scss/global.scss */
+/* line 245, ../scss/global.scss */
 .header h1 {
   font-size: 1em;
   line-height: 1.5;
   margin: 0;
+  padding: 0;
 }
 
-/* line 243, ../scss/global.scss */
+/* line 253, ../scss/global.scss */
 .header a:link,
 .header a:visited {
   color: #fff;
 }
 
-/* line 248, ../scss/global.scss */
+/* line 258, ../scss/global.scss */
 .header a:hover,
 .header a:focus {
   color: #f5c2c5;
 }
 
-/* line 252, ../scss/global.scss */
+/* line 262, ../scss/global.scss */
 .header a:active {
   color: #ea838c;
 }
 
-/* line 256, ../scss/global.scss */
+/* line 266, ../scss/global.scss */
 .header-title {
   font-size: 2em;
   font-family: "AdelleBasic-Bold", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
   text-align: center;
+  width: 4em;
+  margin: auto;
   color: #fff;
   border-bottom: 10px solid #ec9022;
   text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
   display: block;
-  padding: 1em 0 0;
-  margin: 0 15%;
+}
+@media screen and (min-width: 30em) {
+  /* line 280, ../scss/global.scss */
+  .page-home .header-title {
+    font-size: 4em;
+  }
 }
 
-/* line 269, ../scss/global.scss */
+/* line 288, ../scss/global.scss */
+.header-title span {
+  margin-left: -2em;
+  margin-right: -2em;
+}
+
+/* line 293, ../scss/global.scss */
 .header-title a {
   color: #fff;
   border: 0;
 }
 
-/* line 275, ../scss/global.scss */
-.jump-nav,
-a.jump-nav {
-  color: #fff;
-  border: 0;
-  position: absolute;
-  top: .5em;
-  left: 2.5%;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-@media screen and (min-width: 40em) {
-  /* line 286, ../scss/global.scss */
-  .header-title {
-    font-style: normal;
-    text-transform: uppercase;
-    margin: 0 40%;
-  }
-
-  /* line 292, ../scss/global.scss */
-  .page-home .header-title {
-    font-size: 4em;
-    font-style: italic;
-    text-transform: none;
-    padding-top: .5em;
-    position: relative;
-  }
-
-  /* line 300, ../scss/global.scss */
-  .page-home .header-title span {
-    display: block;
-    margin: 0 -100%;
-  }
-
-  /* line 305, ../scss/global.scss */
-  .jump-nav {
-    display: none;
-  }
-}
 /* @end header */
 /* @group main */
-/* line 315, ../scss/global.scss */
+/* line 302, ../scss/global.scss */
 .main {
   color: #444;
   background: #fff;
   padding: 1.5em 0;
 }
 
-/* line 321, ../scss/global.scss */
+/* line 308, ../scss/global.scss */
+.main-content {
+  width: 90%;
+  max-width: 40em;
+  margin: auto;
+}
+
+/* line 314, ../scss/global.scss */
 .posted {
-  /*margin-bottom: 0;*/
   padding-top: 1em;
   color: #808080;
   text-align: center;
 }
 
-/* line 331, ../scss/global.scss */
+/* line 323, ../scss/global.scss */
 .archive-link a {
   font-size: 1.5em;
   color: #fff;
@@ -476,23 +464,23 @@ a.jump-nav {
 }
 
 @media screen and (min-width: 40em) {
-  /* line 351, ../scss/global.scss */
+  /* line 343, ../scss/global.scss */
   .archive-link {
     text-align: center;
   }
 
-  /* line 355, ../scss/global.scss */
+  /* line 347, ../scss/global.scss */
   .archive-link a {
     display: inline;
   }
 }
-/* line 362, ../scss/global.scss */
+/* line 354, ../scss/global.scss */
 .archive-link a:hover,
 .archive-link a:focus {
   color: #efc5c6;
 }
 
-/* line 366, ../scss/global.scss */
+/* line 358, ../scss/global.scss */
 .archive-link a:active {
   color: #efc5c6;
   background: #ae151d;
@@ -503,39 +491,39 @@ a.jump-nav {
 
 /* @end main */
 /* @group about */
-/* line 378, ../scss/global.scss */
+/* line 370, ../scss/global.scss */
 .about {
   color: #444;
   background: #fff;
   padding: 1.5em 0;
 }
 
-/* line 384, ../scss/global.scss */
+/* line 376, ../scss/global.scss */
 .about-copy {
   color: #808080;
 }
 
 /* @end about */
 /* @group footer */
-/* line 392, ../scss/global.scss */
+/* line 384, ../scss/global.scss */
 .footer {
   border-top: 1px solid #88a1a9;
   text-align: center;
 }
 
-/* line 397, ../scss/global.scss */
+/* line 389, ../scss/global.scss */
 .footer a {
   color: #56757d;
   border-color: #b0c1c6;
 }
 
-/* line 402, ../scss/global.scss */
+/* line 394, ../scss/global.scss */
 .copyright {
   border-top: 10px solid #b0c1c6;
   padding: 2em 0;
 }
 
-/* line 407, ../scss/global.scss */
+/* line 399, ../scss/global.scss */
 .copyright small {
   font-size: 1em;
   font-family: "Adelle Basic", "Helvetica Neue", sans-serif;
@@ -543,14 +531,14 @@ a.jump-nav {
   text-shadow: #fff 0 1px 0;
 }
 
-/* line 414, ../scss/global.scss */
+/* line 406, ../scss/global.scss */
 .jump-top {
   margin-bottom: 1.5em;
 }
 
 /* @end footer */
 /* @group misc */
-/* line 422, ../scss/global.scss */
+/* line 414, ../scss/global.scss */
 .hidden {
   display: block;
   visibility: hidden;
