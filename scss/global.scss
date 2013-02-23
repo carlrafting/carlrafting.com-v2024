@@ -266,9 +266,10 @@ color: #ea838c;
 .header-title {
 font-size: 2em;
 font-family: "AdelleBasic-Bold", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
-font-style: italic;
+font-style: normal;
+text-transform: uppercase;
 text-align: center;
-width: 4em;
+width: 8em;
 margin: auto;
 color: #fff;
 border-bottom: 10px solid #ec9022;
@@ -279,6 +280,9 @@ display: block;
 
 .page-home & {
 font-size: 4em;
+font-style: italic;
+text-transform: none;
+width: 4em;
 }
 
 }
@@ -379,10 +383,13 @@ color: #808080;
 
 /* @end about */
 
+.nav {
+border-top: 1px solid #88a1a9;
+}
+
 /* @group footer */
 
 .footer {
-border-top: 1px solid #88a1a9;
 text-align: center;
 }
 
@@ -392,8 +399,10 @@ border-color: #b0c1c6;
 }
 
 .copyright {
+width: 16em;
+margin: auto;
 border-top: 10px solid #b0c1c6;
-padding: 2em 0;
+padding: 1.5em 0;
 }
 
 .copyright small {

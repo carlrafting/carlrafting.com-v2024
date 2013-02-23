@@ -1,0 +1,17 @@
+--- 
+tags: []
+
+layout: post
+title: Success, and Farming vs. Mining
+---
+Wil Shipley talks about the farming vs. mining approach as a metaphor for running a software business, but he also talks a bit about the value of 'having an idea'.
+
+notextile. <blockquote cite="http://blog.wilshipley.com/2011/04/success-and-farming-vs-mining.html">
+
+What’s upsetting is the number of people who have come to me with the idea of becoming miners: “I know nothing about software, but I can see there’s gold in them thar’ hills, and so I want to start up a company and make my million dollars! I’ve got an idea and everything, just tell me what magic incantation you did to get rich and I’ll be on my way.”
+
+This doesn’t work. Your idea sucks. No, I’m not calling you stupid — my idea sucks, too. All ideas suck, because they are just ideas. They’re worth nothing.
+
+My success is because I worked to make the idea real. A lot. All my life. Starting when I was 12, I learned to program, and I’ve programmed every spare moment since. I didn’t become a millionaire until I’d worked at it for eighteen years. There was no genius idea I had. I just kept working, hating what I did before, and working some more to make it better.
+
+notextile. </blockquote>

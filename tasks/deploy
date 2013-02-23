@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-jekyll --no-server --no-auto && rsync -avz --delete _site/ poly:/srv/www/carlrafting.com/_site

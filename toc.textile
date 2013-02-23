@@ -1,9 +1,0 @@
----
-layout: default
-title: TOC
-permalink: /toc/
----
-
-h1. {{ page.title }}
-
-* "Styleguide":/styleguide/

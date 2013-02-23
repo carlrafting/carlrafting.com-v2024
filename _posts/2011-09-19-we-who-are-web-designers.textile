@@ -1,0 +1,7 @@
+--- 
+tags: []
+
+layout: post
+title: We, Who Are Web Designers
+---
+Jon Tangerine writes about what it means to be a web designer and how sometimes, people will have the wrong idea about what it is you actually do. Every web designer should read this.
