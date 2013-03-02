@@ -140,6 +140,7 @@ font-family: "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
 font-size: 1.5em;
 line-height: 1.25;
 margin-bottom: 1em;
+text-align: center;
 }
 
 h3 {
@@ -306,7 +307,7 @@ border: 0;
 .main {
 color: #444;
 background: #fff;
-padding: 1.5em 0;
+padding: 3em 0;
 }
 
 .main-content {
@@ -316,9 +317,26 @@ margin: auto;
 }
 
 .posted {
-padding-top: 1em;
+font-family: Baskerville, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-size: 1.5em;
+display: block;
 color: #808080;
 text-align: center;
+margin-bottom: 1.5em;
+}
+
+.posted::before,
+.posted::after {
+content: '~';
+}
+
+.posted::before {
+margin-right: .25em;
+}
+
+.posted::after {
+margin-left: .25em;
 }
 
 .archive-link {

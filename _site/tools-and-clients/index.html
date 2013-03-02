@@ -2,28 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-{% if page.home %}
-<title>Carl Räfting — Web builder and stuff i guess...</title>
-{% else %}
-<title>{{ page.title }} &mdash; Carl Räfting</title>
-{% endif %}
+
+<title>On Tools and Clients &mdash; Carl Räfting</title>
+
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="/css/global.css" media="all">
 <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Carl Räfting">
 </head>
-{% if page.home %}
-<body class="page-home">
-{% else %}
+
 <body>
-{% endif %}
+
 
 <div class="header" role="banner">
 
-{% if page.home %}
-<h1><a class="header-title" href="/"><span>Carl Räfting</span></a></h1>
-{% else %}
+
 <a class="header-title" href="/"><span>Carl Räfting</span></a>
-{% endif %}
+
 
 </div>
 
@@ -33,7 +27,12 @@
 
 <div class="main-content">
 
-{{ content }}
+<h1>On Tools and Clients</h1>
+
+<p>Noah Stokes touches on a subject that is very common in the web community, the focus on why the tools are so great rather than the focus on solving the clients current issues.</p>
+<blockquote>
+<p>HTML5. CSS3. Responsive Web Design. Sass. Less. Javascript Frameworks. No one cares about this stuff. Let me back up, the people who pay me money to build their sites/apps don’t care about this stuff. Why would they?</p>
+</blockquote>
 
 </div>
 
@@ -60,7 +59,7 @@
 
 <div class="footer" role="contentinfo">
 
-<p class="copyright"><small>&copy; {{ 'now' | date: "%Y" }} Carl Räfting.</small></p>
+<p class="copyright"><small>&copy; 2013 Carl Räfting.</small></p>
 
 </div>
 

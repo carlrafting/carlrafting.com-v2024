@@ -2,28 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-{% if page.home %}
-<title>Carl Räfting — Web builder and stuff i guess...</title>
-{% else %}
-<title>{{ page.title }} &mdash; Carl Räfting</title>
-{% endif %}
+
+<title>Method &amp; Craft &mdash; Carl Räfting</title>
+
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="/css/global.css" media="all">
 <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Carl Räfting">
 </head>
-{% if page.home %}
-<body class="page-home">
-{% else %}
+
 <body>
-{% endif %}
+
 
 <div class="header" role="banner">
 
-{% if page.home %}
-<h1><a class="header-title" href="/"><span>Carl Räfting</span></a></h1>
-{% else %}
+
 <a class="header-title" href="/"><span>Carl Räfting</span></a>
-{% endif %}
+
 
 </div>
 
@@ -33,7 +27,12 @@
 
 <div class="main-content">
 
-{{ content }}
+<h1>Method &amp; Craft</h1>
+
+<p>Recently launched and built by <a href="http://philcoffman.com/">Phil Coffman</a>, <a href="http://noahstokes.com/">Noah Stokes</a> &amp; <a href="http://trentwalton.com/">Trent Walton</a>. The about page explains:</p>
+<blockquote>
+<p>We all use the same tools, but we use them differently. We strive to educate you on more efficient, creative, and engaging ways to create your design. This site will not only be valuable to creative veterans, but also educational to those new to the design field. It&#8217;s like looking over the shoulder of your favorite designer.</p>
+</blockquote>
 
 </div>
 
@@ -60,7 +59,7 @@
 
 <div class="footer" role="contentinfo">
 
-<p class="copyright"><small>&copy; {{ 'now' | date: "%Y" }} Carl Räfting.</small></p>
+<p class="copyright"><small>&copy; 2013 Carl Räfting.</small></p>
 
 </div>
 

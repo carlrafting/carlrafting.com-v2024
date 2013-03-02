@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Styleguide &mdash; Carl Räfting</title>
+
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="/css/global.css" media="all">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Carl Räfting">
+</head>
+
+<body>
+
+
+<div class="header" role="banner">
+
+
+<a class="header-title" href="/"><span>Carl Räfting</span></a>
+
+
+</div>
+
+<hr>
+
+<div class="main" role="main">
+
+<div class="main-content">
+
+<h1>Styleguide <a href="/">with link</a></h1>
+<p>This is a Styleguide containing styling of all default elements on this site.</p>
+<h2>Heading examples <a href="/">with link</a></h2>
+<p>The following is examples of how headings are displayed on this site. Heading level 2 which is the one above, is used after h1 which just explains itselfs, isn&#8217;t it?</p>
+<h3>Heading level 3 <a href="/">with link</a></h3>
+<h4>Heading level 4 <a href="/">with link</a></h4>
+<h2>Unordered lists</h2>
+<ul>
+	<li>list item one</li>
+	<li>list item two
+	<ul>
+		<li>nested
+		<ul>
+			<li>even more nested
+			<ul>
+				<li>four levels in fact</li>
+			</ul></li>
+		</ul></li>
+	</ul></li>
+	<li>now normal again</li>
+</ul>
+<h2>Ordered lists</h2>
+<ol>
+	<li>list item one</li>
+	<li>list item two
+	<ol>
+		<li>nested
+		<ol>
+			<li>even more nested
+			<ol>
+				<li>four levels in fact</li>
+			</ol></li>
+		</ol></li>
+	</ol></li>
+	<li>now normal again</li>
+</ol>
+<h2>Defintion lists</h2>
+<dl>
+<dt>Definition<br />
+<dd>This is some description of the definition<br />
+<dt>This is a second one<br />
+<dd>And some text that goes under it</dl>
+<h2>Paragraphs</h2>
+<p>Here follows a lorem ipsum paragraph.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#8216;Content here, content here&#8217;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#8216;lorem ipsum&#8217; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+<h2>Blockquotes</h2>
+<p>And here is a blockquote with two paragraphs.</p>
+<blockquote>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &#8220;de Finibus Bonorum et Malorum&#8221; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &#8220;Lorem ipsum dolor sit amet..&#8221;, comes from a line in section 1.10.32.</p>
+</blockquote>
+<p>&#8212; <a href="http://lipsum.com">Lorem Ipsum</a></p>
+<h2>Links</h2>
+<p>You can follow <a href="http://google.com">this link to Google</a>. Or this one to <a href="/">go back home</a>.</p>
+<p>This is a paragraph with a footnote<sup class="footnote" id="fnr1"><a href="#fn1">1</a></sup>. It&#8217;s like a link, well it uses a link.</p>
+<p class="footnote" id="fn1"><a href="#fnr1"><sup>1</sup></a> The footnote goes here, and there&#8217;s nothing useful here!</p>
+<h2>Standard table</h2>
+<table>
+	<tr>
+		<td>a</td>
+		<td>b</td>
+		<td>c</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+</table>
+<h2>Table with headings</h2>
+<table>
+	<tr>
+		<th>header 1</th>
+		<th>header 2</th>
+		<th>header 3</th>
+	</tr>
+	<tr>
+		<td>cell</td>
+		<td>cell</td>
+		<td>cell</td>
+	</tr>
+</table>
+<h2>Table complete table markup</h2>
+<table>
+<caption>Caption</caption>
+<thead>
+<tr>
+<th>abc</th>
+<th>abc</th>
+<th>abc</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td>ijk</td>
+<td>ijk</td>
+<td>ijk</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>def</td>
+<td>def</td>
+<td>def</td>
+</tr>
+</tbody>
+</table>
+<h2>Code</h2>
+<p>This paragraph contains some <code>inline &lt;code&gt;</code>.</p>
+<p>The following code is css.</p>
+<pre><code>selector {
+margin: 0;
+padding: 0;
+}</code>
+
+<code>.second { position: absolute; }</code></pre>
+<p>And here is some javascript.</p>
+<pre><code>function foo(param) {
+  var bar = param + 1;
+  return bar;
+}</code></pre>
+<p>Here&#8217;s some html.</p>
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;</code>
+
+<code>&lt;!-- Let's code shall we? --&gt;</code>
+
+<code>&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h2>Pre formatted text.</h2>
+<p>Here follows a poem by Edgar Allan Poe to display how the <code>pre</code> element might be used.</p>
+<pre>From childhood's hour I have not been
+As others were; I have not seen
+As others saw; I could not bring
+My passions from a common spring.
+From the same source I have not taken
+My sorrow; I could not awaken
+My heart to joy at the same tone;
+And all I loved, I loved alone.
+Then- in my childhood, in the dawn
+Of a most stormy life- was drawn
+From every depth of good and ill
+The mystery which binds me still:
+From the torrent, or the fountain,
+From the red cliff of the mountain,
+From the sun that round me rolled
+In its autumn tint of gold,
+From the lightning in the sky
+As it passed me flying by,
+From the thunder and the storm,
+And the cloud that took the form
+(When the rest of Heaven was blue)
+Of a demon in my view. </pre>
+<p>Edgar Allan Poe</p>
+<h2>Images</h2>
+<p><img src="/img/dev/bench.jpg" alt="" /></p>
+<h2>Inline text elements</h2>
+<p>Here are some elements that usually is contained within other elements.</p>
+<ul>
+	<li><code>sup</code> E = mc<sup>2</sup></li>
+	<li><code>sub</code> H<sub>2</sub>O</li>
+	<li><code>strong</code> This is <strong>quite important</strong></li>
+	<li><code>b</code> This is just <b>bold for looks</b></li>
+	<li><code>em</code> <em>This is empasized</em></li>
+	<li><code>i</code> This is just <i>italic for looks</i></li>
+	<li><code>ins</code> &amp; <code>del</code> <ins>This is inserted</ins> and <del>this one is deleted</del></li>
+	<li><code>cite</code> Have you read <cite>Lord Of The Rings</cite> ? It&#8217;s pretty good. <cite>Harry Potter</cite>, however, sucks!</li>
+</ul>
+<p>It&#8217;s also possible to combine some of the elements for fun effects, for example <code>ins</code> together with <code>strong</code> and <code>i</code>.</p>
+<p>This is <strong><i><ins>totally awesome</ins></i></strong></p>
+<h2>Horizontal rule</h2>
+<hr>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="nav" id="nav">
+
+<ul>
+<li><a href="/about/">About</a></li>
+<li><a href="/archive/">Archive</a></li>
+</ul>
+
+</div>
+
+<hr>
+
+<a href="/styleguide/">Styleguide</a>
+
+<div class="jump-top"><a href="#">Jump to top</a></div>
+
+<hr>
+
+<div class="footer" role="contentinfo">
+
+<p class="copyright"><small>&copy; 2013 Carl Räfting.</small></p>
+
+</div>
+
+<script src="/js/global.js"></script>
+
+</body>
+</html>

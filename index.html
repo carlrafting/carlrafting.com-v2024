@@ -4,15 +4,15 @@ title: Carl Räfting
 home: true
 ---
 
+<ul class="posts-listing">
 {% for post in site.posts limit: 10 %}
+<li>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{ post.date | date: '%b %d %Y' }}</p>
-{% if post.excerpt %}
-<p>{{ post.excerpt }}</p>
-{% else %}
-<p>No excerpt</p>
-{% endif %}
+<span class="posted"><time datetime="{{post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%b %d %Y' }}</time></span>
+<p>{{ post.content | strip_html | textilize | truncatewords: 25 }}</p>
+</li>
 {% endfor %}
+</ul>
 
 <div class="archive-link"><a href="/archive/">Archive</a></div>
 

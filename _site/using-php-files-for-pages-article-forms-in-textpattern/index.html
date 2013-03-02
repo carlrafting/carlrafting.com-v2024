@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Using PHP Files For Pages &amp; Article Forms in Textpattern &mdash; Carl Räfting</title>
+
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="/css/global.css" media="all">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Carl Räfting">
+</head>
+
+<body>
+
+
+<div class="header" role="banner">
+
+
+<a class="header-title" href="/"><span>Carl Räfting</span></a>
+
+
+</div>
+
+<hr>
+
+<div class="main" role="main">
+
+<div class="main-content">
+
+<h1>Using PHP Files For Pages &amp; Article Forms in Textpattern</h1>
+
+<p>Thanks to Jon Hicks tip on <a href="http://hicksdesign.co.uk/journal/using-files-for-page-templates-in-textpattern">Using files for page templates in Textpattern</a>, it is now a lot easier to work even more rapidly. I&#8217;d like to share some tips on how to use the mentioned workaround when working with Textpattern.</p>
+<p>Create a new directory for your Textpattern project, let&#8217;s call it <em>&#8220;my_blog&#8221;</em>. Then inside the <em>&#8220;my_blog&#8221;</em> directory, create three subdirectories: <em>&#8220;forms&#8221;</em>, <em>&#8220;pages&#8221;</em> and finally <em>&#8220;public&#8221;</em>.</p>
+<p>You should now have something like this:</p>
+<ul>
+	<li>my_blog
+	<ul>
+		<li>forms</li>
+		<li>pages</li>
+		<li>public</li>
+	</ul></li>
+</ul>
+<p>You could call the <em>&#8220;public&#8221;</em> directory whatever you like, but i&#8217;ll call it <em>&#8220;public&#8221;</em>. The idea is to keep the files which&#8217;ll live inside <em>&#8220;forms&#8221;</em> and <em>&#8220;pages&#8221;</em> outside of the root directory.</p>
+<p>Now go get a fresh copy of Textpattern (4.3.0), and run the setup. When everything is setup and customized to your liking, we&#8217;re ready to setup Textpattern to use <span class="caps">PHP</span> files.</p>
+<p>The idea is, whenever you&#8217;re creating a new page or form in Textpattern, you&#8217;ll want that page or form to point to a <span class="caps">PHP</span>-file which contain all of the Texpattern tags <br />
+you&#8217;ll be using, instead of pasting all your code into pages or forms. You&#8217;ll still be pasting a lot, but instead it is a short snippet that points to the <span class="caps">PHP</span>-file Textpattern will use instead. Here is what that snippet looks like:</p>
+<pre><code>&lt;txp:php&gt;echo parse(file_get_contents(txpath.'/../../directory/file.php'));&lt;/txp:php&gt;</code></pre>
+<p>Directory is either <em>&#8220;pages&#8221;</em> or <em>&#8220;forms&#8221;</em>, you could even go ahead and create subdirectories within <em>&#8220;forms&#8221;</em> for the different form types (&#8220;section&#8221;, &#8220;link&#8221;, &#8220;article&#8221;, &#8220;misc&#8221; etc).</p>
+<p>So now you&#8217;ll spend most of your time working within your text-editor, which is much more convenient. When the time comes to show of your project to the world, keep in mind that <em>&#8220;pages&#8221;</em> and <em>&#8220;forms&#8221;</em> will live <em>outside</em> of the root of your server. There are probably other and better ways to do this, but this is how i do it at the moment, and it works pretty well.</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="nav" id="nav">
+
+<ul>
+<li><a href="/about/">About</a></li>
+<li><a href="/archive/">Archive</a></li>
+</ul>
+
+</div>
+
+<hr>
+
+<a href="/styleguide/">Styleguide</a>
+
+<div class="jump-top"><a href="#">Jump to top</a></div>
+
+<hr>
+
+<div class="footer" role="contentinfo">
+
+<p class="copyright"><small>&copy; 2013 Carl Räfting.</small></p>
+
+</div>
+
+<script src="/js/global.js"></script>
+
+</body>
+</html>

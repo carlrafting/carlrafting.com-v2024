@@ -3,4 +3,4 @@ server: true
 permalink: /:title
 pygments: true
 
-exclude: ['import.sh', 'config', 'scss']
+exclude: ['home.psd', 'import.sh', 'config', 'scss']
