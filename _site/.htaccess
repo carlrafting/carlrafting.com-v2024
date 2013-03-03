@@ -505,3 +505,6 @@ AddCharset utf-8 .html .css .js .xml .json .rss .atom
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
+
+# Redirect old designgrid url to new.
+Redirect 301 /designGrid/ /designgrid/

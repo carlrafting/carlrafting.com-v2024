@@ -1,7 +1,0 @@
---- 
-tags: []
-
-layout: post
-title: About
----
-I'm Carl Räfting. I have a huge interest in designing and building things on the web.
