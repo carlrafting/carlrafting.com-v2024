@@ -4,7 +4,7 @@
  <title>Carl Räfting</title>
  <link href="http://carlrafting.com/feed.xml" rel="self"/>
  <link href="http://carlrafting.com/"/>
- <updated>2013-03-02T18:28:33+01:00</updated>
+ <updated>2013-03-03T01:00:20+01:00</updated>
  <id>http://carlrafting.com/</id>
  <author>
    <name>Carl Räfting</name>
@@ -29,7 +29,7 @@
    <updated>2012-04-30T00:00:00+02:00</updated>
    <id>http://carlrafting.com/designgrid-a-grid-tool-for-fluid-grids</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/images/10.png&quot;&gt;&lt;img src=&quot;/images/10.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Last ==&lt;time datetime=&quot;2012-04-22&quot;&gt;Sunday&lt;/time&gt;== i set out to tackle an issue i had. The issue was that i didn’t really know how to design with fluid grids in a good way. Every since i started designing in a responsive manner, i had almost abandoned grids completely, but sometimes there where a need for order but i didn&amp;#8217;t have a tool that could help me out.&lt;/p&gt;
+&lt;p&gt;Last &lt;time datetime=&quot;2012-04-22&quot;&gt;Sunday&lt;/time&gt; i set out to tackle an issue i had. The issue was that i didn’t really know how to design with fluid grids in a good way. Every since i started designing in a responsive manner, i had almost abandoned grids completely, but sometimes there where a need for order but i didn&amp;#8217;t have a tool that could help me out.&lt;/p&gt;
 &lt;p&gt;Before i used &lt;a href=&quot;http://hashgrid.com&quot;&gt;#grid&lt;/a&gt;, by the folks at &lt;a href=&quot;http://analog.coop&quot;&gt;Analog&lt;/a&gt;, to make sure my design followed the grid, but then responsive web design and fluid grids came along, and it didn&amp;#8217;t work out anymore. I needed something that was more suitable toward responsive designs. This is my attempt. A first step.&lt;/p&gt;
 &lt;p&gt;My goal was to get something out there as quickly as possible, and worry about optimization and performance later. All in all i spent about a week to get to where i am now, i  designed the grid layout and some basic script functionality the first day. Following days was spent on code for generating a baseline grid and columns.&lt;/p&gt;
 &lt;h2&gt;Check it out!&lt;/h2&gt;
@@ -273,14 +273,6 @@ font-style: normal;
    <content type="html">&lt;p&gt;I fully agree with Veerle, that it&amp;#8217;s necessary to use photoshop to able to achieve maximum creative freedom. It&amp;#8217;s something about working with markup and style that not always enable one to be fully creative… I should also mention that i really enjoy these kind of practical articles, they&amp;#8217;re really valuable in that you get the chance to see how other designers workflow looks like.&lt;/p&gt;
 &lt;p&gt;But then i also believe that it&amp;#8217;s easy to set the wrong expectations for clients, if you show them static comps, because these days there are more ways we can accomplish certain effects in &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt;, and if we as web designers really want to take full advantage of the latest &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; technologies, then the best way is probably to show them &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; prototypes.&lt;/p&gt;
 &lt;p&gt;So i do believe a way to combine these workflows will benefit the project a lot.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>About</title>
-   <link href="http://carlrafting.com/about"/>
-   <updated>2010-12-08T00:00:00+01:00</updated>
-   <id>http://carlrafting.com/about</id>
-   <content type="html">&lt;p&gt;I&amp;#8217;m Carl Räfting. I have a huge interest in designing and building things on the web.&lt;/p&gt;</content>
  </entry>
  
  <entry>

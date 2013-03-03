@@ -6,7 +6,7 @@ title: "designGrid \xE2\x80\x94 A grid-tool for fluid grids"
 ---
 !/images/10.png!:/images/10.png
 
-Last ==<time datetime="2012-04-22">Sunday</time>== i set out to tackle an issue i had. The issue was that i didn’t really know how to design with fluid grids in a good way. Every since i started designing in a responsive manner, i had almost abandoned grids completely, but sometimes there where a need for order but i didn't have a tool that could help me out.
+Last <time datetime="2012-04-22">Sunday</time> i set out to tackle an issue i had. The issue was that i didn’t really know how to design with fluid grids in a good way. Every since i started designing in a responsive manner, i had almost abandoned grids completely, but sometimes there where a need for order but i didn't have a tool that could help me out.
 
 Before i used "#grid":http://hashgrid.com, by the folks at "Analog":http://analog.coop, to make sure my design followed the grid, but then responsive web design and fluid grids came along, and it didn't work out anymore. I needed something that was more suitable toward responsive designs. This is my attempt. A first step.
 
