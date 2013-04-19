@@ -3,3 +3,5 @@ _drafts/
 .sass-cache/
 home.psd
 import.sh
+.ruby-version
+_site/

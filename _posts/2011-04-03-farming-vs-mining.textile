@@ -1,8 +1,7 @@
 --- 
-tags: []
-
-layout: post
+layout: link
 title: Success, and Farming vs. Mining
+link: http://blog.wilshipley.com/2011/04/success-and-farming-vs-mining.html
 ---
 Wil Shipley talks about the farming vs. mining approach as a metaphor for running a software business, but he also talks a bit about the value of 'having an idea'.
 

@@ -7,3 +7,13 @@ permalink: /about/
 h1. {{ page.title }}
 
 I'm Carl Räfting. I have a huge interest in designing and building things on the web.
+
+h2. Background
+
+I've had a website, in some shape or form, since 2006. But building my first website started a bit earlier than that. It was put together in "Microsoft Notepad":http://en.wikipedia.org/wiki/Notepad_(software). There was no @CSS@, just some very simple @HTML@ and some images. The website was a portfolio of my photos. The thing that got me excited when i built the website was the links. How cool wasn't it that you could link to another page!? For me it was groundbreaking. It would seem a bit strange to get so excited about something as simple as links, but in fact it's the foundation of the web. It makes the web what it is.
+
+Since 
+
+h2. Technology
+
+Check out the "Styleguide for carlrafting.com":/styleguide/

@@ -4,7 +4,7 @@ tags: []
 layout: post
 title: A note on media-queries and mobile devices
 ---
-These days, there is a lot of talk about reponsive design and mobile/content first. While i think we can agree on that these strategies isn't entirely bulletproof (yet!), they have a ceratin appeal and can be fairly easy to implement and use today. I do believe that this approach is better than making a mobile version of a website, but that is probably necessary sometimes.
+{% excerpt %}These days, there is a lot of talk about reponsive design and mobile/content first. While i think we can agree on that these strategies isn't entirely bulletproof (yet!), they have a ceratin appeal and can be fairly easy to implement and use today. {% endexcerpt %} I do believe that this approach is better than making a mobile version of a website, but that is probably necessary sometimes.
 
 h2. The issue
 

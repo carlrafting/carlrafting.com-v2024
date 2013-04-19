@@ -1,8 +1,7 @@
 --- 
-tags: []
-
-layout: post
+layout: link
 title: "24 ways: Optimize Your Web Design Workflow"
+link: http://24ways.org/2010/optimize-your-web-design-workflow
 ---
 I fully agree with Veerle, that it's necessary to use photoshop to able to achieve maximum creative freedom. It's something about working with markup and style that not always enable one to be fully creative… I should also mention that i really enjoy these kind of practical articles, they're really valuable in that you get the chance to see how other designers workflow looks like.
 

@@ -1,8 +1,7 @@
 --- 
-tags: []
-
-layout: post
+layout: link
 title: Method &amp; Craft
+link: http://methodandcraft.com/
 ---
 Recently launched and built by "Phil Coffman":http://philcoffman.com/, "Noah Stokes":http://noahstokes.com/ & "Trent Walton":http://trentwalton.com/. The about page explains:
 

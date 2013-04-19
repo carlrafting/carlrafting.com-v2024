@@ -1,8 +1,7 @@
 --- 
-tags: []
-
-layout: post
+layout: link
 title: Responsive Web Design
+link: http://www.abookapart.com/products/responsive-web-design
 ---
 Ethan Marcotte's long awaited "book about responsive web design":http://www.abookapart.com/products/responsive-web-design is finally here. To get a sense of what responsive web design is all about, you should "check out the article":http://www.alistapart.com/articles/responsive-web-design/ Ethan wrote on the subject over at A List Apart.
 

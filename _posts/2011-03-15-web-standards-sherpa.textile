@@ -1,8 +1,7 @@
 --- 
-tags: []
-
-layout: post
+layout: link
 title: Web Standards Sherpa
+link: http://webstandardssherpa.com/
 ---
 An excerpt from the "about page":http://webstandardssherpa.com/about, explaining what the goal of the site is:
 

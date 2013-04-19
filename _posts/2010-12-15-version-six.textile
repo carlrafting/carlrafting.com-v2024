@@ -1,6 +1,4 @@
 --- 
-tags: []
-
 layout: post
 title: Version Six
 ---
@@ -22,20 +20,20 @@ Before, i used to write my CSS in a more location dependent manner, this time it
 
 This is what i refer to as location dependent css:
 
-bc. p {
+bc.. p {
 	margin: 0 0 20px;
 }
 
-bc. #css {
+#css {
 	margin: 0;
 	background: red;
 }
 
-bc. #css p {
+#css p {
 	margin: 0 0 40px;
 }
 
-So this bit of code assumes that the @p@ element should be contained within @#css@. I’ve seen a lot of people writing CSS like this, and still do, and it used to be the way i prefered to write CSS as well. 
+p. So this bit of code assumes that the @p@ element should be contained within @#css@. I’ve seen a lot of people writing CSS like this, and still do, and it used to be the way i prefered to write CSS as well. 
 
 But if you imagine for a second that there are more elements that should have other styles than their default, within @#css@. Since one read left-to-right the first thing you’ll read is @#css@, and this bothered me alot, it's hard to read and it also has an impact on performance.
 
@@ -43,49 +41,57 @@ Theres one downside to location independent CSS as i see it, compared to "regula
 
 This is what i refer to as location independent CSS
 
-bc. p {
+bc.. p {
 	margin: 0 0 20px;
 }
 
-bc. .css {
+.css {
 	bakground: red;
 }
 
-bc. .css-blurb {
+.css-blurb {
 	margin: 0 0 40px;
 }
 
-So in this case the @.css-blurb@ is applied directly to the @<p>@ element in the HTML. I still do have some location dependency in my CSS but it’s not as common as it used to be.
+p. So in this case the @.css-blurb@ is applied directly to the @<p>@ element in the HTML. I still do have some location dependency in my CSS but it’s not as common as it used to be.
 
-h2. CSS & HTMLFormatting
+h2. CSS & HTML Formatting
 
-I've gone with another approach regarding formatting of the HTNL & CSS as well.
+I've gone with another approach regarding formatting of the HTML & CSS as well.
 
 *Before*
 
-bc. <div id="text">
+bc.. <!-- html -->
+
+<div id="text">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus vel justo elementum convallis facilisis quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus fringilla urna vel ipsum varius gravida id eu tortor.</p>
 </div>
 
-bc. body {
+/* css */
+
+body {
 	font-family: Helvetica;
 	font-size: 13px;
 	font-style: normal;
 }
 
-*After*
+p. *After*
 
-bc. <div id="text">
+bc.. <!-- html -->
+
+<div id="text">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus vel justo elementum convallis facilisis quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus fringilla urna vel ipsum varius gravida id eu tortor.</p>
 </div>
 
-bc. body {
+/* css */
+
+body {
 font-family: Helvetica;
 font-size: 13px;
 font-style: normal;
 }
 
-Why this? Well in this case it’s a matter of readability, i just find the second example a lot more natural to read.
+p. Why this? Well in this case it’s a matter of readability, i just find the second example a lot more natural to read.
 
 The problem with nicely formatted HTML isn't the formatting itself, it's that when implementing it with a CMS, it'll in most cases mangle it and it wont be as pretty anymore, so i've gone with another approach when writing HTML as well.
 
@@ -93,7 +99,7 @@ h2. Working With Ems
 
 Another thing i incoroporated was to more rely on ems instead of pixels, now i still use pixels for widths and font-size, dealing with ems and font-size inheritance is a major headache i could do without.
 
-I could probably go with ems on @widht@s and @padding@s as well, but i discovered this quite late in the process and incorporating this with the typography was easy.
+I could probably go with ems on @widht@==s== and @padding@==s== as well, but i discovered this quite late in the process and incorporating this with the typography was easy.
 
 I've read a lot about ems in the past so it wasn't completely new to me, but to acctually use it in a project like this made me see the beauty of it, it's just a matter of changing the @font-size@ and the @margin@ and @line-height@ will adjust based on @font-size@, beautiful.
 

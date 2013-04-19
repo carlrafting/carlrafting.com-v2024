@@ -1,3 +1,3 @@
 (function (w, document, $) {
-  document.documentElement.className += 'js';
+  document.documentElement.className += ' js';
 }(this, this.document, this.utilities));

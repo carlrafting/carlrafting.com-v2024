@@ -4,7 +4,7 @@
  <title>Carl Räfting</title>
  <link href="http://carlrafting.com/feed.xml" rel="self"/>
  <link href="http://carlrafting.com/"/>
- <updated>2013-03-03T01:29:06+01:00</updated>
+ <updated>2013-04-18T22:12:00+02:00</updated>
  <id>http://carlrafting.com/</id>
  <author>
    <name>Carl Räfting</name>
@@ -13,13 +13,21 @@
 
  
  <entry>
+   <title>Version Se7en</title>
+   <link href="http://carlrafting.com/version-se7en"/>
+   <updated>2013-04-18T00:00:00+02:00</updated>
+   <id>http://carlrafting.com/version-se7en</id>
+   <content type="html">&lt;p&gt;So here we are&amp;#8230; Time for a redesign again. To be honest the last version was getting quite outdated (I mean 14px body text, even i cant read that!). It didn&amp;#8217;t really reflect my current best practices and skillset, something that i was hoping to better display with a redesign (or perhaps realign is more fitting?).&lt;/p&gt;
+&lt;p&gt;This is a turd post&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>autogrow — Less frustrating textareas</title>
    <link href="http://carlrafting.com/autogrow-less-frustrating-textareas"/>
    <updated>2012-05-16T00:00:00+02:00</updated>
    <id>http://carlrafting.com/autogrow-less-frustrating-textareas</id>
    <content type="html">&lt;p&gt;Last week, &lt;a href=&quot;http://carlrafting.com/designgrid-a-grid-tool-for-fluid-grids&quot;&gt;about one week after i released designGrid&lt;/a&gt;, i published yet another little project that i’ve been working on. This time i’m trying to solve the problem with textareas, or rather the frustration of using them, especially when you’re going to write a lot of text. See textareas are designed to always have a fixed height and when you’re typing a lot it becomes hard to get a coherent sense of what you’ve written. Of course the scrollbar will eventually appear, but instead of it appearing on the text area itself, it will appear on the page, like it should.&lt;/p&gt;
 &lt;p&gt;The reason i even made this is of course because i needed it myself, and i’ll probably need it in the future as well. I stumbled in to this problem with text areas when i was working on a web app a while ago, and luckily i found out about Neil Jenkins article “Expanding Textareas made elegant” over at A List Apart, which was the solution i was looking for. So i based autogrow on the code from the article, but made it to be more customizable and reusable.&lt;/p&gt;
-&lt;h2&gt;Interested?&lt;/h2&gt;
 &lt;p&gt;If this sounds like something that you could make use of, &lt;a href=&quot;http://carlrafting.com/autogrow/&quot;&gt;head on over to the project&amp;#8217;s home page&lt;/a&gt;, and when you&amp;#8217;re done reading, &lt;a href=&quot;https://github.com/carlrafting/autogrow&quot;&gt;download the source code from Github&lt;/a&gt;.&lt;/p&gt;</content>
  </entry>
  
@@ -41,7 +49,7 @@
    <link href="http://carlrafting.com/media-queries-and-mobile-devices"/>
    <updated>2011-11-09T00:00:00+01:00</updated>
    <id>http://carlrafting.com/media-queries-and-mobile-devices</id>
-   <content type="html">&lt;p&gt;These days, there is a lot of talk about reponsive design and mobile/content first. While i think we can agree on that these strategies isn&amp;#8217;t entirely bulletproof (yet!), they have a ceratin appeal and can be fairly easy to implement and use today. I do believe that this approach is better than making a mobile version of a website, but that is probably necessary sometimes.&lt;/p&gt;
+   <content type="html">&lt;p&gt;These days, there is a lot of talk about reponsive design and mobile/content first. While i think we can agree on that these strategies isn&amp;#8217;t entirely bulletproof (yet!), they have a ceratin appeal and can be fairly easy to implement and use today.  I do believe that this approach is better than making a mobile version of a website, but that is probably necessary sometimes.&lt;/p&gt;
 &lt;h2&gt;The issue&lt;/h2&gt;
 &lt;p&gt;I stumbled upon an issue when i was working on a web-application the other day. I had just finished the design in photoshop and then i built the templates in html/css. I should point out that this was the &lt;em&gt;desktop&lt;/em&gt; version of the design. Later on i wanted to make it look good on mobile devices as well, so i set up a media query in the stylesheet to cover the design changes for those kinds of devices.&lt;/p&gt;
 &lt;p&gt;The issue appeared to me at this stage of the process, the mobile devices would need to download the extra set of styles to reset the &lt;em&gt;desktop&lt;/em&gt; styles. This is a bit of an issue, since when we talk about mobile, we asume that the device has significantly less bandwith than a desktop computer. That&amp;#8217;s not necessarily true &lt;strong&gt;all&lt;/strong&gt; the time but it &lt;em&gt;can&lt;/em&gt; be most of the time, if one is on a bus-commute for example.&lt;/p&gt;
@@ -192,7 +200,7 @@
 &lt;p&gt;Now go get a fresh copy of Textpattern (4.3.0), and run the setup. When everything is setup and customized to your liking, we&amp;#8217;re ready to setup Textpattern to use &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; files.&lt;/p&gt;
 &lt;p&gt;The idea is, whenever you&amp;#8217;re creating a new page or form in Textpattern, you&amp;#8217;ll want that page or form to point to a &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;-file which contain all of the Texpattern tags &lt;br /&gt;
 you&amp;#8217;ll be using, instead of pasting all your code into pages or forms. You&amp;#8217;ll still be pasting a lot, but instead it is a short snippet that points to the &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;-file Textpattern will use instead. Here is what that snippet looks like:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;txp:php&amp;gt;echo parse(file_get_contents(txpath.'/../../directory/file.php'));&amp;lt;/txp:php&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;txp:php&amp;gt;echo parse(file_get_contents(txpath.&#39;/../../directory/file.php&#39;));&amp;lt;/txp:php&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Directory is either &lt;em&gt;&amp;#8220;pages&amp;#8221;&lt;/em&gt; or &lt;em&gt;&amp;#8220;forms&amp;#8221;&lt;/em&gt;, you could even go ahead and create subdirectories within &lt;em&gt;&amp;#8220;forms&amp;#8221;&lt;/em&gt; for the different form types (&amp;#8220;section&amp;#8221;, &amp;#8220;link&amp;#8221;, &amp;#8220;article&amp;#8221;, &amp;#8220;misc&amp;#8221; etc).&lt;/p&gt;
 &lt;p&gt;So now you&amp;#8217;ll spend most of your time working within your text-editor, which is much more convenient. When the time comes to show of your project to the world, keep in mind that &lt;em&gt;&amp;#8220;pages&amp;#8221;&lt;/em&gt; and &lt;em&gt;&amp;#8220;forms&amp;#8221;&lt;/em&gt; will live &lt;em&gt;outside&lt;/em&gt; of the root of your server. There are probably other and better ways to do this, but this is how i do it at the moment, and it works pretty well.&lt;/p&gt;</content>
  </entry>
@@ -213,12 +221,14 @@ you&amp;#8217;ll be using, instead of pasting all your code into pages or forms.
 &lt;p&gt;This is what i refer to as location dependent css:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;p {
 	margin: 0 0 20px;
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;#css {
+}&lt;/code&gt;
+
+&lt;code&gt;#css {
 	margin: 0;
 	background: red;
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;#css p {
+}&lt;/code&gt;
+
+&lt;code&gt;#css p {
 	margin: 0 0 40px;
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;So this bit of code assumes that the &lt;code&gt;p&lt;/code&gt; element should be contained within &lt;code&gt;#css&lt;/code&gt;. I’ve seen a lot of people writing &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; like this, and still do, and it used to be the way i prefered to write &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; as well.&lt;/p&gt;
@@ -227,30 +237,42 @@ you&amp;#8217;ll be using, instead of pasting all your code into pages or forms.
 &lt;p&gt;This is what i refer to as location independent &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;p {
 	margin: 0 0 20px;
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;.css {
+}&lt;/code&gt;
+
+&lt;code&gt;.css {
 	bakground: red;
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;.css-blurb {
+}&lt;/code&gt;
+
+&lt;code&gt;.css-blurb {
 	margin: 0 0 40px;
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;So in this case the &lt;code&gt;.css-blurb&lt;/code&gt; is applied directly to the &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; element in the &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;. I still do have some location dependency in my &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; but it’s not as common as it used to be.&lt;/p&gt;
-&lt;h2&gt;&lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; &amp;amp; HTMLFormatting&lt;/h2&gt;
-&lt;p&gt;I&amp;#8217;ve gone with another approach regarding formatting of the &lt;span class=&quot;caps&quot;&gt;HTNL&lt;/span&gt; &amp;amp; &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; as well.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; &amp;amp; &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; Formatting&lt;/h2&gt;
+&lt;p&gt;I&amp;#8217;ve gone with another approach regarding formatting of the &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; &amp;amp; &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; as well.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Before&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;text&quot;&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- html --&amp;gt;&lt;/code&gt;
+
+&lt;code&gt;&amp;lt;div id=&quot;text&quot;&amp;gt;
 	&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus vel justo elementum convallis facilisis quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus fringilla urna vel ipsum varius gravida id eu tortor.&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;body {
+&amp;lt;/div&amp;gt;&lt;/code&gt;
+
+&lt;code&gt;/* css */&lt;/code&gt;
+
+&lt;code&gt;body {
 	font-family: Helvetica;
 	font-size: 13px;
 	font-style: normal;
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;After&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;text&quot;&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- html --&amp;gt;&lt;/code&gt;
+
+&lt;code&gt;&amp;lt;div id=&quot;text&quot;&amp;gt;
 &amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus vel justo elementum convallis facilisis quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus fringilla urna vel ipsum varius gravida id eu tortor.&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;body {
+&amp;lt;/div&amp;gt;&lt;/code&gt;
+
+&lt;code&gt;/* css */&lt;/code&gt;
+
+&lt;code&gt;body {
 font-family: Helvetica;
 font-size: 13px;
 font-style: normal;
@@ -259,7 +281,7 @@ font-style: normal;
 &lt;p&gt;The problem with nicely formatted &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; isn&amp;#8217;t the formatting itself, it&amp;#8217;s that when implementing it with a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt;, it&amp;#8217;ll in most cases mangle it and it wont be as pretty anymore, so i&amp;#8217;ve gone with another approach when writing &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; as well.&lt;/p&gt;
 &lt;h2&gt;Working With Ems&lt;/h2&gt;
 &lt;p&gt;Another thing i incoroporated was to more rely on ems instead of pixels, now i still use pixels for widths and font-size, dealing with ems and font-size inheritance is a major headache i could do without.&lt;/p&gt;
-&lt;p&gt;I could probably go with ems on @widht@s and @padding@s as well, but i discovered this quite late in the process and incorporating this with the typography was easy.&lt;/p&gt;
+&lt;p&gt;I could probably go with ems on &lt;code&gt;widht&lt;/code&gt;s and &lt;code&gt;padding&lt;/code&gt;s as well, but i discovered this quite late in the process and incorporating this with the typography was easy.&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;ve read a lot about ems in the past so it wasn&amp;#8217;t completely new to me, but to acctually use it in a project like this made me see the beauty of it, it&amp;#8217;s just a matter of changing the &lt;code&gt;font-size&lt;/code&gt; and the &lt;code&gt;margin&lt;/code&gt; and &lt;code&gt;line-height&lt;/code&gt; will adjust based on &lt;code&gt;font-size&lt;/code&gt;, beautiful.&lt;/p&gt;
 &lt;h2&gt;Final Notes&lt;/h2&gt;
 &lt;p&gt;I’ve also done things a bit differently with my &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; of choice, Textpattern, but i’ll save that for an upcoming article, so stay tuned!&lt;/p&gt;</content>

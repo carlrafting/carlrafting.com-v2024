@@ -1,6 +1,4 @@
 --- 
-tags: []
-
 layout: post
 title: Learning Git
 ---
