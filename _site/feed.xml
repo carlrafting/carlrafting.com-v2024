@@ -4,7 +4,7 @@
  <title>Carl Räfting</title>
  <link href="http://carlrafting.com/feed.xml" rel="self"/>
  <link href="http://carlrafting.com/"/>
- <updated>2013-04-18T22:12:00+02:00</updated>
+ <updated>2013-04-20T18:25:55+02:00</updated>
  <id>http://carlrafting.com/</id>
  <author>
    <name>Carl Räfting</name>
@@ -19,6 +19,17 @@
    <id>http://carlrafting.com/version-se7en</id>
    <content type="html">&lt;p&gt;So here we are&amp;#8230; Time for a redesign again. To be honest the last version was getting quite outdated (I mean 14px body text, even i cant read that!). It didn&amp;#8217;t really reflect my current best practices and skillset, something that i was hoping to better display with a redesign (or perhaps realign is more fitting?).&lt;/p&gt;
 &lt;p&gt;This is a turd post&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>An Interview with Jeremy Keith - The Industry</title>
+   <link href="http://carlrafting.com/an-interview-with-jeremy-keith-the-industry"/>
+   <updated>2013-03-12T00:00:00+01:00</updated>
+   <id>http://carlrafting.com/an-interview-with-jeremy-keith-the-industry</id>
+   <content type="html">&lt;p&gt;If you&amp;#8217;re doing web development, &lt;a href=&quot;http://adactio.com&quot;&gt;Jeremy Keith&lt;/a&gt; is probably no stranger to you. &lt;a href=&quot;http://theindustry.cc/&quot;&gt;The Industry&lt;/a&gt; recently did an interview with him. I really enjoyed his view on writing, as it&amp;#8217;s something i&amp;#8217;m struggling with. On the other hand, writing is something that i also find very rewarding.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The ability to express yourself, as a designer, is hugely important: There was a post from 37Signals a few years back, about how, when they were hiring, they looked for people who could write, because it’s a form of communication, and design is a lot about communication. So yeah, write. For its own sake, without expecting to get anything back. If you expect to get something back, you’ll only be disappointed when it doesn’t happen, and you’ll kinda self-censor yourself.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
  </entry>
  
  <entry>

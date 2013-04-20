@@ -6,14 +6,20 @@ permalink: /about/
 
 h1. {{ page.title }}
 
-I'm Carl Räfting. I have a huge interest in designing and building things on the web.
+p(lead). My name is Carl Räfting and i’m currently spending my time studying web application development at "Jensen Education YH":http://www.jenseneducation.se/JENSEN-yrkeshogskola/ in Gothenburg, Sweden.
 
-h2. Background
+h2. Computer Setup & Software
 
-I've had a website, in some shape or form, since 2006. But building my first website started a bit earlier than that. It was put together in "Microsoft Notepad":http://en.wikipedia.org/wiki/Notepad_(software). There was no @CSS@, just some very simple @HTML@ and some images. The website was a portfolio of my photos. The thing that got me excited when i built the website was the links. How cool wasn't it that you could link to another page!? For me it was groundbreaking. It would seem a bit strange to get so excited about something as simple as links, but in fact it's the foundation of the web. It makes the web what it is.
+The computer of choice is a Apple 13" MacBook with the aluminum unibody, often used in clamshell mode attached to a 24" LED Cinema Display. Designing happens in Photoshop, markup and styles are written in "Espresso":http://macrabbit.com/espresso/.
 
-Since 
+h2. Web Technology
 
-h2. Technology
+This site is HTML5 ready and uses some HTML5 attributes. The stylesheet uses some properties found in the CSS3 specification, which makes designing easier. This site runs on "Textpattern":http://textpattern.com, which does its job well.
 
-Check out the "Styleguide for carlrafting.com":/styleguide/
+h2. Typefaces
+
+There are four different typfaces in use on this website. Headings are set in the beautiful Adelle Web served via Typekit. The body text is set in Georgia. Code samples are set in Anonymous Pro, also served via Typekit. Quotes are set in Baskerville italic.
+
+h2. Styleguide
+
+If you want, you can have a "look at the styleguide":/styleguide/ i use for this site.
