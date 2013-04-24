@@ -1,0 +1,11 @@
+{
+  "name": "carlrafting.com",
+  "version": "7.0.0",
+  "description": "My personal blog/website",
+  "author": "Carl Räfting",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-sass": "~0.3.0"
+  }
+}

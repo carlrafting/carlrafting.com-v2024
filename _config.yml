@@ -1,4 +1,4 @@
 permalink: /:title
 pygments: true
 
-exclude: ['home.psd', 'import.sh', 'config', 'scss']
+exclude: ['Gruntfile.js', 'package.json', 'node_modules',  'scss', 'docs', 'compass.rb']

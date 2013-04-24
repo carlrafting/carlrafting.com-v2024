@@ -10,16 +10,20 @@ p(lead). My name is Carl Räfting and i’m currently spending my time studying 
 
 h2. Computer Setup & Software
 
-The computer of choice is a Apple 13" MacBook with the aluminum unibody, often used in clamshell mode attached to a 24" LED Cinema Display. Designing happens in Photoshop, markup and styles are written in "Espresso":http://macrabbit.com/espresso/.
+The computer of choice is a "Apple 13'' MacBook":http://support.apple.com/kb/sp500 with the aluminum unibody, often used in clamshell mode attached to a "24'' LED Cinema Display":http://support.apple.com/kb/sp502. Design exploring happens in Adobe Photoshop, markup and styles are mostly written in "Coda":http://panic.com/coda/ but i also use "Espresso":http://macrabbit.com/espresso/ a lot.
 
-h2. Web Technology
+h2. Technology
 
-This site is HTML5 ready and uses some HTML5 attributes. The stylesheet uses some properties found in the CSS3 specification, which makes designing easier. This site runs on "Textpattern":http://textpattern.com, which does its job well.
+This site is HTML5 ready and uses some HTML5 attributes. Stylesheets are developed using "Sass":http://sass-lang.com/ and "Compass":http://compass-style.org/. The stylesheets uses some properties found in the CSS3 specification. This site is generated with "Jekyll":http://jekyllrb.com and is basically just static files hosted on a VPS at "Glesys":http://www.glesys.se/vps.php.
 
 h2. Typefaces
 
-There are four different typfaces in use on this website. Headings are set in the beautiful Adelle Web served via Typekit. The body text is set in Georgia. Code samples are set in Anonymous Pro, also served via Typekit. Quotes are set in Baskerville italic.
+There are four different typfaces in use on this website. Headings are set in the beautiful *Adelle Web* served via "Typekit":https://typekit.com/. The body text is set in *PT Sans*, served via "Google Fonts":http://www.google.com/fonts/. Code samples are set in *Menlo* on Mac and *Monaco* or *Courier New* on other platforms and devices. Text that is emphasised is set in *Baskerville Italic*.
 
-h2. Styleguide
+h2. Style guide
 
-If you want, you can have a "look at the styleguide":/styleguide/ i use for this site.
+If you want, you can have a "look at the style guide":/styleguide/ i use for this site.
+
+h2. Web services
+
+You can find me on a range of different services on the web. "Twitter":https://twitter.com/carlrafting and "Github":https://github.com/carlrafting are my favorites and these are the ones i spend the most time at.

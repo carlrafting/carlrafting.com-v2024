@@ -5,3 +5,4 @@ home.psd
 import.sh
 .ruby-version
 _site/
+node_modules/

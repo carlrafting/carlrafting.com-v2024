@@ -1,8 +1,0 @@
----
-title: Version Se7en
-layout: post
----
-
-So here we are... Time for a redesign again. To be honest the last version was getting quite outdated (I mean 14px body text, even i cant read that!). It didn't really reflect my current best practices and skillset, something that i was hoping to better display with a redesign (or perhaps realign is more fitting?).
-
-This is a turd post
