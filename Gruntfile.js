@@ -9,6 +9,11 @@ module.exports = function(grunt) {
       options: {
         compass: 'compass.rb'
       },
+      clean: {
+        files: {
+          'css/global.clean.css': 'scss/global.scss'
+        }        
+      },
       prod: {
         options: {
           style: 'compressed'
