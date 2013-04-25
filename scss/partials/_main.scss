@@ -7,7 +7,6 @@ font-size: 100%;
 
 body {
 font: 1em/1.5 "PT Sans", "Helvetica Neue", Arial, sans-serif;
-text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 color: #55757e;
 background: #d7e0e2;
@@ -125,6 +124,15 @@ margin-bottom: 2.8em;
 
 /* @group headings */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+text-rendering: optimizeLegibility;
+}
+
 h1 {
 font-size: 2em; /* 32/16 */
 
@@ -140,7 +148,9 @@ margin: 0 0 1em;
 text-align: center;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
 font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -244,10 +254,15 @@ textarea {
 color: #444;
 background: #fff;
 font-size: 1em;
-line-height: 1.5;
+/* line-height: 1.5; */
 font-family: inherit;
 }
 
+/* We love applying fixes to specific browsers! */
+button::-moz-focus-inner {
+border:0;
+padding:0;
+}
 
 input[type="text"],
 input[type="search"],
