@@ -1,0 +1,27 @@
+{% if post.layout == 'link' %}
+<li class="link">
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
+<div class="link-description">
+{{ post.content | textilize }}
+</div>
+<p class="link-url">
+<a href="{{ post.link }}">{{ post.title }} »</a>
+</p>
+</li>
+{% endif %}
+
+{% if post.layout == 'post' %}
+<li class="post">
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
+{% if post.excerpt %}
+<div class="post-excerpt">
+{{ post.excerpt | textilize }}
+</div>
+<p class="post-read-more">
+<a href="{{ post.url }}">Read the rest...</a>
+</p>
+{% endif %}
+</li>
+{% endif %}

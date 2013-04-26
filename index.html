@@ -7,33 +7,7 @@ page-home: true
 <ul class="posts-listing">
 {% for post in site.posts limit: 10 %}
 
-{% if post.layout == 'link' %}
-<li class="link">
-<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
-<div class="link-description">
-{{ post.content | textilize }}
-</div>
-<p class="link-url">
-<a href="{{ post.link }}">{{ post.title }} »</a>
-</p>
-</li>
-{% endif %}
-
-{% if post.layout == 'post' %}
-<li class="post">
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
-{% if post.excerpt %}
-<div class="post-excerpt">
-{{ post.excerpt | textilize }}
-</div>
-<p class="post-read-more">
-<a href="{{ post.url }}">Read the rest...</a>
-</p>
-{% endif %}
-</li>
-{% endif %}
+{% include _listing.html %}
 
 {% endfor %}
 </ul>
@@ -45,6 +19,6 @@ page-home: true
 
 <div class="about">
 <h3>About</h3>
-<p class="about-copy">My name is Carl Räfting and i’m currently spending my time studying web application development at Jensen Education YH in Gothenburg. Building for the web happens to be my main interest in life. I'm particulary interested in front-end development and ui design, but i can do some backend as well...
+<p class="about-copy">My name is Carl Räfting and i’m currently spending my time studying web application development at Jensen Education YH in Gothenburg, Sweden.
 <a class="aside-link" href="/about/">Learn More &raquo;</a></p>
 </div>

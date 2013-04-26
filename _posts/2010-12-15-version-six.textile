@@ -2,9 +2,7 @@
 layout: post
 title: Version Six
 ---
-h2. Woah…
-
-It was nearly two years ago since the last redesign, this marks the sixth version of _carlrafting.com_, which i registered almost five years ago.
+{% excerpt %} It was nearly two years ago since the last redesign, this marks the sixth version of _carlrafting.com_, which i registered almost five years ago. {% endexcerpt %}
 
 The path to get here hasn’t been that straightforward, i believe any designer can agree that redesigning your own personal website is one of the hardest thing to pull off, but now it’s here, and i’ve learned some stuff along the way which i thought i’d like to share. 
 
