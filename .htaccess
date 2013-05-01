@@ -507,4 +507,4 @@ AddCharset utf-8 .html .css .js .xml .json .rss .atom
 </IfModule>
 
 # Redirect old designgrid url to new.
-Redirect 301 /designGrid/ /designgrid/
+# Redirect 301 /designGrid/ /designgrid/
