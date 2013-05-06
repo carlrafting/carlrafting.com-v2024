@@ -1,8 +1,0 @@
----
-title: jQuery Builder
-layout: link
-link: http://projects.jga.me/jquery-builder/
-published: false
----
-
-http://blog.jquery.com/2013/04/18/jquery-2-0-released/
