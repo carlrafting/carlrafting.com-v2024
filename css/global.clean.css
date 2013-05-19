@@ -401,6 +401,9 @@ input[disabled] {
     border-bottom: 1px solid #eee;
     padding-bottom: 3em; }
 
+.link {
+  margin-bottom: 1.5em; }
+
 .archive {
   margin-bottom: 6em; }
   .archive > h3 {

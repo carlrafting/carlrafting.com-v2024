@@ -1,7 +1,7 @@
 {% if post.layout == 'link' %}
 <li class="link">
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
+{% include _postdate.html %}
 <div class="link-description">
 {{ post.content | textilize }}
 </div>
@@ -14,7 +14,7 @@
 {% if post.layout == 'post' %}
 <li class="post">
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
+{% include _postdate.html %}
 {% if post.excerpt %}
 <div class="post-excerpt">
 {{ post.excerpt | textilize }}

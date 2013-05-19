@@ -1,0 +1,5 @@
+{% if post %}
+<span class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%b %d, %Y' }}</time></span>
+{% else %}
+<span class="posted"><time datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}">{{ page.date | date: '%b %d, %Y' }}</time></span>
+{% endif %}
