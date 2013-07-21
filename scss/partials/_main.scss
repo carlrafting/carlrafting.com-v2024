@@ -372,19 +372,22 @@ a:active {
 }
 
 .go-to-footer {
-padding: .25em;
-border: 0;
+padding: .25em .5em;
 font-size: 1.25em;
 background: #ae151d;
-position: absolute;
-left: -999em;
 color: #fff;
+position: absolute;
+left: .5em;
+top: .5em;
+border: 0;
 
 .header &:focus {
 color: #fff;
-left: .5em;
-top: .5em;
 outline: 4px solid #e98f30;
+}
+
+&:active {
+background: #9c0007;
 }
 }
 

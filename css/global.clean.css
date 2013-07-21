@@ -320,18 +320,19 @@ input[disabled] {
     color: #ea838c; }
 
 .go-to-footer {
-  padding: .25em;
-  border: 0;
+  padding: .25em .5em;
   font-size: 1.25em;
   background: #ae151d;
+  color: #fff;
   position: absolute;
-  left: -999em;
-  color: #fff; }
+  left: .5em;
+  top: .5em;
+  border: 0; }
   .header .go-to-footer:focus {
     color: #fff;
-    left: .5em;
-    top: .5em;
     outline: 4px solid #e98f30; }
+  .go-to-footer:active {
+    background: #9c0007; }
 
 .header-title {
   font-size: 2em;
