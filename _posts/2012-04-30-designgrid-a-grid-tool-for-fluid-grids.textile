@@ -2,7 +2,7 @@
 layout: post
 title: "designGrid — A grid-tool for fluid grids"
 ---
-!/images/10.png!:/images/10.png
+"<img src="/images/10.png" alt="" width="600">":/images/10.png
 
 Last <time datetime="2012-04-22">Sunday</time> i set out to tackle an issue i had. The issue was that i didn’t really know how to design with fluid grids in a good way. Every since i started designing in a responsive manner, i had almost abandoned grids completely, but sometimes there where a need for order but i didn't have a tool that could help me out.
 
