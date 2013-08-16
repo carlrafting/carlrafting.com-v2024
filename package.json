@@ -5,7 +5,7 @@
   "author": "Carl Räfting",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-contrib-sass": "~0.3.0"
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-sass": "~0.4.1"
   }
 }

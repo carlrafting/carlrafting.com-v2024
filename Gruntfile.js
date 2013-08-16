@@ -5,15 +5,18 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
+    
     sass: {
       options: {
-        compass: 'compass.rb'
+        compass: true
       },
+      
       clean: {
         files: {
-          'css/global.clean.css': 'scss/global.scss'
+          'css/global.css': 'scss/global.scss'
         }        
       },
+      
       prod: {
         options: {
           style: 'compressed'
@@ -22,16 +25,18 @@ module.exports = function(grunt) {
           'css/global.min.css': 'scss/global.scss'
         }
       },
+      
       dev: {
         options: {
           debugInfo: true,
           lineNumbers: true
         },
         files: {
-          'css/global.css': 'scss/global.scss'
+          'css/global.dev.css': 'scss/global.scss'
         }
       }
     },
+    
     watch: {
       sass: {
         files: ['scss/*.scss', 'scss/**/*.scss'],
