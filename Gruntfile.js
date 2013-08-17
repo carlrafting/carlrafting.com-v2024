@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           'css/global.min.css': 'scss/global.scss'
         }
       },
-      
+            
       dev: {
         options: {
           debugInfo: true,
@@ -36,8 +36,46 @@ module.exports = function(grunt) {
         }
       }
     },
+
+    less: {
+      clean: {
+        files: {
+          'css/global.css': 'less/global.less'
+        }
+      },
+    
+      development: {
+        options: {
+          dumpLineNumbers: 'all'
+        },
+        
+        files: { 
+          'css/global.dev.css': [
+            'less/*.less'
+          ]
+        }
+      },
+    
+      production: {
+        options: {
+          compress: true,
+          yuicompress: true
+        },
+        
+        files: {
+          'css/global.min.css': [
+            'less/*.less'          
+          ]
+        }
+      }
+    },    
     
     watch: {
+      less: {
+        files: ['less/*.less', 'less/**/*.less'],
+        tasks: 'less'
+      },
+    
       sass: {
         files: ['scss/*.scss', 'scss/**/*.scss'],
         tasks: 'sass'
@@ -48,8 +86,11 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-less');
   
   // Default task.
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['less']);
+  
+  grunt.registerTask('styles', ['watch:less']);
 
 };
