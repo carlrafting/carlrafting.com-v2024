@@ -31,10 +31,7 @@ em,
 var,
 address,
 dfn {
-  font-size: 1.25em;
-  line-height: 1.2;
   font-style: italic;
-  font-family: Baskerville, Georgia, "Times New Roman", Times, serif;
 }
 small {
   font-size: .85em;
@@ -557,6 +554,4 @@ input[disabled] {
   visibility: hidden;
   height: 0;
 }
-/* @end misc */@media print {
-  
-}
+/* @end misc */

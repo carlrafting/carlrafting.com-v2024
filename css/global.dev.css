@@ -43,18 +43,15 @@ em,
 var,
 address,
 dfn {
-  font-size: 1.25em;
-  line-height: 1.2;
   font-style: italic;
-  font-family: Baskerville, Georgia, "Times New Roman", Times, serif;
 }
-/* line 46, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000346}}
+/* line 43, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000343}}
 small {
   font-size: .85em;
 }
-/* line 50, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000350}}
+/* line 47, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000347}}
 sub,
 sup {
   font-size: .75em;
@@ -62,18 +59,18 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-/* line 58, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000358}}
+/* line 55, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000355}}
 sup {
   top: -0.5em;
 }
-/* line 62, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000362}}
+/* line 59, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000359}}
 sub {
   bottom: -0.25em;
 }
-/* line 66, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000366}}
+/* line 63, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000363}}
 pre,
 code,
 samp,
@@ -81,20 +78,20 @@ kbd {
   font-size: 1em;
   font-family: Menlo, Monaco, 'Courier New', monospace;
 }
-/* line 74, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000374}}
+/* line 71, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000371}}
 code,
 samp {
   color: #e57422;
   background: #fff;
 }
-/* line 80, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000380}}
+/* line 77, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000377}}
 code {
   font-style: normal;
 }
-/* line 84, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000384}}
+/* line 81, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000381}}
 pre {
   white-space: pre-wrap;
   /* css-3 */
@@ -112,24 +109,24 @@ pre {
   /* Internet Explorer 5.5+ */
 
 }
-/* line 92, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000392}}
+/* line 89, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000389}}
 ul,
 ol {
   padding: 0;
 }
-/* line 97, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000397}}
+/* line 94, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000394}}
 ul {
   list-style: square;
 }
-/* line 101, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003101}}
+/* line 98, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\0000398}}
 ol {
   list-style: decimal;
 }
-/* line 105, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003105}}
+/* line 102, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003102}}
 ul ul,
 ol ol,
 ul ol,
@@ -137,26 +134,26 @@ ol ul {
   margin-left: 1.5em;
   margin-bottom: 0;
 }
-/* line 113, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003113}}
+/* line 110, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003110}}
 .plain-list {
   list-style: none;
 }
-/* line 117, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003117}}
+/* line 114, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003114}}
 hr {
   display: none;
 }
-/* line 121, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003121}}
+/* line 118, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003118}}
 .lead {
   font-size: 1.25em;
   line-height: 1.4;
   margin-bottom: 2.8em;
 }
 /* @group headings */
-/* line 129, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003129}}
+/* line 126, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003126}}
 h1,
 h2,
 h3,
@@ -165,8 +162,8 @@ h5,
 h6 {
   text-rendering: optimizeLegibility;
 }
-/* line 138, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003138}}
+/* line 135, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003135}}
 h1 {
   font-size: 2em;
   /* 32/16 */
@@ -181,21 +178,21 @@ h1 {
   text-align: center;
 }
 @media screen and (min-width: 40em) {
-  /* line 141, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003141}}
+  /* line 138, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003138}}
   h1 {
     font-size: 3em;
   }
 }
-/* line 153, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003153}}
+/* line 150, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003150}}
 h4,
 h5,
 h6 {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-/* line 159, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003159}}
+/* line 156, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003156}}
 h2 {
   font-family: adelle-1, "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.5em;
@@ -207,8 +204,8 @@ h2 {
   margin-bottom: .5em;
   text-align: center;
 }
-/* line 167, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003167}}
+/* line 164, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003164}}
 h3 {
   font-family: adelle-1, "AdelleBasic-BoldItalic", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.25em;
@@ -224,8 +221,8 @@ h3 {
 }
 /* @end headings */
 /* @group shared */
-/* line 181, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003181}}
+/* line 178, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003178}}
 p,
 ul,
 ol,
@@ -236,15 +233,15 @@ pre {
 }
 /* @end shared */
 /* @group selection */
-/* line 189, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003189}}
+/* line 186, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003186}}
 ::-moz-selection {
   color: #efc5c6;
   background: #c21720;
   text-shadow: none;
 }
-/* line 190, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003190}}
+/* line 187, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003187}}
 ::selection {
   color: #efc5c6;
   background: #c21720;
@@ -252,52 +249,52 @@ pre {
 }
 /* @end selection */
 /* @group links */
-/* line 196, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003196}}
+/* line 193, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003193}}
 a {
   color: #c5171a;
   text-decoration: none;
   border-bottom: 2px solid #f0c5c6;
   outline: none;
 }
-/* line 202, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003202}}
+/* line 199, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003199}}
 a:hover,
 a:focus {
   color: #ae151d;
   border-color: #ae151d;
 }
-/* line 208, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003208}}
+/* line 205, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003205}}
 a:active {
   color: #600a0f;
   border-color: #600a0f;
 }
 /* @end links */
 /* @group quotes */
-/* line 217, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003217}}
+/* line 214, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003214}}
 blockquote {
   border-left: 4px solid #c21720;
   color: #848484;
   margin: 0;
   padding: 0 0 0 1em;
 }
-/* line 224, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003224}}
+/* line 221, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003221}}
 blockquote,
 q {
   quotes: none;
 }
-/* line 225, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003225}}
+/* line 222, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003222}}
 blockquote:before,
 blockquote:after {
   content: '';
   content: none;
 }
-/* line 230, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003230}}
+/* line 227, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003227}}
 q:before,
 q:after {
   content: '';
@@ -305,21 +302,21 @@ q:after {
 }
 /* @end quotes */
 /* @group tables */
-/* line 239, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003239}}
+/* line 236, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003236}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 /* @end tables */
 /* @group forms */
-/* line 248, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003248}}
+/* line 245, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003245}}
 .search {
   padding-top: 3em;
 }
-/* line 252, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003252}}
+/* line 249, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003249}}
 button,
 input,
 select,
@@ -332,14 +329,14 @@ textarea {
   font-family: inherit;
 }
 /* We love applying fixes to specific browsers! */
-/* line 264, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003264}}
+/* line 261, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003261}}
 button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-/* line 269, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003269}}
+/* line 266, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003266}}
 input[type="text"],
 input[type="search"],
 input[type="password"] {
@@ -359,8 +356,8 @@ input[type="password"] {
   -moz-box-shadow: #b0c1c6 0 2px 4px inset;
   box-shadow: #b0c1c6 0 2px 4px inset;
 }
-/* line 284, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003284}}
+/* line 281, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003281}}
 input[type="text"]:focus,
 input[type="search"]:focus,
 input[type="password"]:focus {
@@ -370,8 +367,8 @@ input[type="password"]:focus {
   box-shadow: #d7e0e2 0 2px 4px inset;
   border-color: #61828b;
 }
-/* line 290, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003290}}
+/* line 287, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003287}}
 .search input[type="text"],
 .search input[type="search"],
 .search input[type="password"] {
@@ -379,26 +376,26 @@ input[type="password"]:focus {
   float: left;
 }
 @media screen and (min-width: 30em) {
-  /* line 293, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003293}}
+  /* line 290, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003290}}
   .search input[type="text"],
   .search input[type="search"],
   .search input[type="password"] {
     width: 90%;
   }
 }
-/* line 302, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003302}}
+/* line 299, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003299}}
 .search input[type="text"]::-webkit-input-placeholder {
   color: #b0c1c6;
 }
-/* line 306, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003306}}
+/* line 303, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003303}}
 .search input[type="text"]:focus::-webkit-input-placeholder {
   color: transparent;
 }
-/* line 311, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003311}}
+/* line 308, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003308}}
 button,
 input[type="submit"] {
   margin: 0;
@@ -407,16 +404,16 @@ input[type="submit"] {
   color: #fff;
   padding: .25em .75em;
 }
-/* line 319, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003319}}
+/* line 316, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003316}}
 button:active,
 input[type="submit"]:active {
   color: #d7e0e2;
   background: #56757d;
   border-color: #56757d;
 }
-/* line 325, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003325}}
+/* line 322, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003322}}
 .search button,
 .search input[type="submit"] {
   width: 25%;
@@ -424,15 +421,15 @@ input[type="submit"]:active {
   margin-left: -1px;
 }
 @media screen and (min-width: 30em) {
-  /* line 328, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003328}}
+  /* line 325, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003325}}
   .search button,
   .search input[type="submit"] {
     width: 10%;
   }
 }
-/* line 337, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003337}}
+/* line 334, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003334}}
 button[disabled],
 input[disabled] {
   cursor: not-allowed;
@@ -440,41 +437,41 @@ input[disabled] {
 /* @end forms */
 /* @end elements */
 /* @group header */
-/* line 348, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003348}}
+/* line 345, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003345}}
 .header {
   color: #fff;
   background: #c21720;
   padding-top: 1em;
   border-bottom: 10px solid #ae151d;
 }
-/* line 354, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003354}}
+/* line 351, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003351}}
 .header > h1 {
   font-size: 1em;
   line-height: 1.5;
   margin: 0;
   padding: 0;
 }
-/* line 361, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003361}}
+/* line 358, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003358}}
 .header a:link,
 .header a:visited {
   color: #fff;
 }
-/* line 366, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003366}}
+/* line 363, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003363}}
 .header a:hover,
 .header a:focus {
   color: #f5c2c5;
 }
-/* line 371, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003371}}
+/* line 368, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003368}}
 .header a:active {
   color: #ea838c;
 }
-/* line 376, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003376}}
+/* line 373, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003373}}
 .go-to-footer {
   padding: .25em .5em;
   font-size: 1.25em;
@@ -488,27 +485,27 @@ input[disabled] {
   margin-bottom: .5em;
 }
 @media screen and (min-width: 40em) {
-  /* line 388, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003388}}
+  /* line 385, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003385}}
   .go-to-footer {
     position: absolute;
     left: .5em;
     top: .5em;
   }
 }
-/* line 394, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003394}}
+/* line 391, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003391}}
 .header .go-to-footer:focus {
   color: #fff;
   outline: 4px solid #e98f30;
 }
-/* line 399, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003399}}
+/* line 396, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003396}}
 .go-to-footer:active {
   background: #9c0007;
 }
-/* line 404, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003404}}
+/* line 401, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003401}}
 .header-title {
   font-size: 2em;
   font-family: adelle-1, "AdelleBasic-Bold", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
@@ -524,8 +521,8 @@ input[disabled] {
   margin-bottom: -10px;
 }
 @media screen and (min-width: 30em) {
-  /* line 419, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003419}}
+  /* line 416, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003416}}
   .page-home .header-title {
     font-size: 4em;
     font-style: italic;
@@ -533,22 +530,22 @@ input[disabled] {
     width: 4em;
   }
 }
-/* line 429, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003429}}
+/* line 426, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003426}}
 .header-title span {
   margin-left: -2em;
   margin-right: -2em;
 }
-/* line 434, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003434}}
+/* line 431, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003431}}
 .header-title a {
   color: #fff;
   border: 0;
 }
 /* @end header */
 /* @group main */
-/* line 444, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003444}}
+/* line 441, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003441}}
 .main {
   color: #444;
   background: #fff;
@@ -557,20 +554,20 @@ input[disabled] {
   border-bottom: 10px solid #b0c1c6;
   font-size: 125%;
 }
-/* line 453, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003453}}
+/* line 450, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003450}}
 .content {
   padding: 0 5%;
   max-width: 30em;
   margin: auto;
 }
-/* line 458, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003458}}
+/* line 455, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003455}}
 .search .content {
   position: relative;
 }
-/* line 463, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003463}}
+/* line 460, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003460}}
 .posted {
   font-style: italic;
   display: block;
@@ -578,51 +575,51 @@ input[disabled] {
   text-align: center;
   margin-bottom: .5em;
 }
-/* line 471, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003471}}
+/* line 468, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003468}}
 .posted::before,
 .posted::after {
   content: '~';
 }
-/* line 476, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003476}}
+/* line 473, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003473}}
 .posted::before {
   margin-right: .25em;
 }
-/* line 480, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003480}}
+/* line 477, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003477}}
 .posted::after {
   margin-left: .25em;
 }
-/* line 484, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003484}}
+/* line 481, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003481}}
 .posts-listing {
   list-style: none;
 }
-/* line 487, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003487}}
+/* line 484, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003484}}
 .posts-listing > li {
   margin-bottom: 4em;
   border-bottom: 1px solid #eee;
   padding-bottom: 3em;
 }
-/* line 494, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003494}}
+/* line 491, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003491}}
 .link {
   margin-bottom: 1.5em;
 }
-/* line 498, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003498}}
+/* line 495, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003495}}
 .archive {
   margin-bottom: 6em;
 }
-/* line 501, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003501}}
+/* line 498, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003498}}
 .archive > h3 {
   padding-bottom: .5em;
 }
-/* line 505, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003505}}
+/* line 502, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003502}}
 .archive > a {
   font-size: 1.5em;
   color: #fff;
@@ -640,14 +637,14 @@ input[disabled] {
   text-align: center;
   display: block;
 }
-/* line 522, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003522}}
+/* line 519, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003519}}
 .archive > a:hover,
 .archive > a:focus {
   color: #efc5c6;
 }
-/* line 527, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003527}}
+/* line 524, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003524}}
 .archive > a:active {
   color: #efc5c6;
   background: #ae151d;
@@ -656,66 +653,66 @@ input[disabled] {
   box-shadow: inset rgba(0, 0, 0, 0.25) 0 2px 6px;
 }
 @media screen and (min-width: 40em) {
-  /* line 537, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003537}}
+  /* line 534, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003534}}
   .archive {
     text-align: center;
   }
-  /* line 540, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003540}}
+  /* line 537, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003537}}
   .archive > a {
     display: inline;
   }
 }
 /* @end main */
 /* @group about */
-/* line 551, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003551}}
+/* line 548, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003548}}
 .about {
   color: #444;
   background: #fff;
   padding: 1.5em 0;
 }
-/* line 557, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003557}}
+/* line 554, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003554}}
 .about-copy {
   color: #808080;
 }
 /* @end about */
 /* @group footer */
-/* line 565, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003565}}
+/* line 562, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003562}}
 .footer {
   text-align: center;
   padding: 0 0 1em;
 }
-/* line 569, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003569}}
+/* line 566, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003566}}
 .footer a {
   color: #56757d;
   border-color: #b0c1c6;
   outline: none;
 }
-/* line 574, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003574}}
+/* line 571, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003571}}
 .footer a:hover,
 .footer a:focus {
   border-color: #56757d;
 }
-/* line 579, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003579}}
+/* line 576, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003576}}
 .footer a:active {
   color: #304146;
   border-color: #304146;
 }
-/* line 587, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003587}}
+/* line 584, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003584}}
 .footer-copy p {
   line-height: 1.25;
   margin: 0 0 1em;
 }
-/* line 593, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003593}}
+/* line 590, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003590}}
 .copyright {
   width: 16em;
   margin: auto;
@@ -724,8 +721,8 @@ input[disabled] {
   border-top: 10px solid #88a1a9;
   padding: 1.5em 0;
 }
-/* line 600, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003600}}
+/* line 597, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003597}}
 .copyright > small {
   font-size: 1em;
   font-family: adelle-1, "Adelle Basic", "Helvetica Neue", sans-serif;
@@ -734,13 +731,11 @@ input[disabled] {
 }
 /* @end footer */
 /* @group misc */
-/* line 612, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003612}}
+/* line 609, /Users/carlrafting/Sites/carlrafting.dev.v7/less/partials/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/carlrafting\/Sites\/carlrafting\.dev\.v7\/less\/partials\/main\.less}line{font-family:\00003609}}
 .hidden {
   display: block;
   visibility: hidden;
   height: 0;
 }
-/* @end misc */@media print {
-  
-}
+/* @end misc */

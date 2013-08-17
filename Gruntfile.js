@@ -50,9 +50,7 @@ module.exports = function(grunt) {
         },
         
         files: { 
-          'css/global.dev.css': [
-            'less/*.less'
-          ]
+          'css/global.dev.css': 'less/global.less'
         }
       },
     
@@ -63,9 +61,7 @@ module.exports = function(grunt) {
         },
         
         files: {
-          'css/global.min.css': [
-            'less/*.less'          
-          ]
+          'css/global.min.css': 'less/global.less'
         }
       }
     },    
