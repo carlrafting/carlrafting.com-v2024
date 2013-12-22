@@ -1,11 +1,12 @@
 ---
 layout: nil
+permalink: /feed/feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Carl Räfting</title>
- <link href="http://carlrafting.com/feed.xml" rel="self"/>
+ <link href="http://carlrafting.com/feed/feed.xml" rel="self"/>
  <link href="http://carlrafting.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://carlrafting.com/</id>
