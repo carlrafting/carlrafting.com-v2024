@@ -506,5 +506,10 @@ AddCharset utf-8 .html .css .js .xml .json .rss .atom
   php_value session.cookie_httponly true
 </IfModule>
 
-# Redirect old designgrid url to new.
-# Redirect 301 /designGrid/ /designgrid/
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteRule ^rss$ /feed.xml/ [R=301]
+#RewriteRule ^logg$ / [R=301]
+#</IfModule>
+RewriteRule ^rss$ /feed.xml [R=301]
+RewriteRule ^logg$ http://%{SERVER_NAME} [R=301]
