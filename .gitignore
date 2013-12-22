@@ -6,3 +6,4 @@ import.sh
 .ruby-version
 _site/
 node_modules/
+CNAME
