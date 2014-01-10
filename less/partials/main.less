@@ -113,6 +113,21 @@ ol ul {
 
 hr {
   display: none;
+  
+  &.divider {    
+    display: block;
+    border: 0;
+    height: 0;  
+    margin-bottom: 3em;
+    
+    &::after {
+      display: block;
+      text-align: center;
+      font-size: 2em;
+      content: '* * *';      
+      padding-bottom: 3em;
+    }
+  }
 }
 
 .lead {
