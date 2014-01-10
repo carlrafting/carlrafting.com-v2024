@@ -4,9 +4,9 @@
   "description": "My personal blog/website",
   "author": "Carl Räfting",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-sass": "~0.4.1",
-    "grunt-contrib-less": "~0.7.0"
+    "gulp-util": "~2.2.9",
+    "gulp": "~3.3.0",
+    "gulp-rename": "~0.2.1",
+    "gulp-csso": "~0.1.7"
   }
 }

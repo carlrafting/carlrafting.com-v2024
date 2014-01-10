@@ -3,6 +3,7 @@ html {
   overflow-y: scroll;
   font-size: 100%;
 }
+
 body {
   font: 1em/1.5 "PT Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,20 +12,24 @@ body {
   position: relative;
   margin: 0;
 }
+
 img {
   height: auto;
   width: auto;
   max-width: 100%;
   vertical-align: middle;
 }
+
 small {
   font-size: .75em;
 }
+
 strong,
 b,
 dt {
   font-weight: bold;
 }
+
 i,
 cite,
 em,
@@ -33,9 +38,11 @@ address,
 dfn {
   font-style: italic;
 }
+
 small {
   font-size: .85em;
 }
+
 sub,
 sup {
   font-size: .75em;
@@ -43,12 +50,15 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sup {
   top: -0.5em;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 pre,
 code,
 samp,
@@ -56,41 +66,43 @@ kbd {
   font-size: 1em;
   font-family: Menlo, Monaco, 'Courier New', monospace;
 }
+
 code,
 samp {
   color: #e57422;
   background: #fff;
 }
+
 code {
   font-style: normal;
 }
+
 pre {
   white-space: pre-wrap;
   /* css-3 */
-
   white-space: -moz-pre-wrap;
   /* Mozilla, since 1999 */
-
   white-space: -pre-wrap;
   /* Opera 4-6 */
-
   white-space: -o-pre-wrap;
   /* Opera 7 */
-
   word-wrap: break-word;
   /* Internet Explorer 5.5+ */
-
 }
+
 ul,
 ol {
   padding: 0;
 }
+
 ul {
   list-style: square;
 }
+
 ol {
   list-style: decimal;
 }
+
 ul ul,
 ol ol,
 ul ol,
@@ -98,9 +110,11 @@ ol ul {
   margin-left: 1.5em;
   margin-bottom: 0;
 }
+
 .plain-list {
   list-style: none;
 }
+
 hr {
   display: none;
 }
@@ -117,11 +131,13 @@ hr.divider::after {
   content: '* * *';
   padding-bottom: 3em;
 }
+
 .lead {
   font-size: 1.25em;
   line-height: 1.4;
   margin-bottom: 2.8em;
 }
+
 /* @group headings */
 h1,
 h2,
@@ -131,13 +147,12 @@ h5,
 h6 {
   text-rendering: optimizeLegibility;
 }
+
 h1 {
   font-size: 2em;
   /* 32/16 */
-
   line-height: 1.25;
   /* 40/32 */
-
   font-weight: bold;
   font-style: italic;
   font-family: adelle-1, "AdelleBasic-BoldItalic", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
@@ -149,35 +164,35 @@ h1 {
     font-size: 3em;
   }
 }
+
 h4,
 h5,
 h6 {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
 h2 {
   font-family: adelle-1, "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.5em;
   /* 24/16 */
-
   line-height: 1.25;
   /* 30/24 */
-
   margin-bottom: .5em;
   text-align: center;
 }
+
 h3 {
   font-family: adelle-1, "AdelleBasic-BoldItalic", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.25em;
   /* 20/16 */
-
   line-height: 1.3;
   /* 26/20 */
-
   font-style: italic;
   margin-bottom: .5em;
   font-weight: bold;
   text-align: center;
 }
+
 /* @end headings */
 /* @group shared */
 p,
@@ -188,6 +203,7 @@ form,
 pre {
   margin: 0 0 1.5em;
 }
+
 /* @end shared */
 /* @group selection */
 ::-moz-selection {
@@ -195,11 +211,13 @@ pre {
   background: #c21720;
   text-shadow: none;
 }
+
 ::selection {
   color: #efc5c6;
   background: #c21720;
   text-shadow: none;
 }
+
 /* @end selection */
 /* @group links */
 a {
@@ -208,8 +226,7 @@ a {
   border-bottom: 2px solid #f0c5c6;
   outline: none;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #ae151d;
   border-color: #ae151d;
 }
@@ -217,6 +234,7 @@ a:active {
   color: #600a0f;
   border-color: #600a0f;
 }
+
 /* @end links */
 /* @group quotes */
 blockquote {
@@ -225,31 +243,34 @@ blockquote {
   margin: 0;
   padding: 0 0 0 1em;
 }
-blockquote,
-q {
+
+blockquote, q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after {
+
+blockquote:before, blockquote:after {
   content: '';
   content: none;
 }
-q:before,
-q:after {
+
+q:before, q:after {
   content: '';
   content: none;
 }
+
 /* @end quotes */
 /* @group tables */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* @end tables */
 /* @group forms */
 .search {
   padding-top: 3em;
 }
+
 button,
 input,
 select,
@@ -258,14 +279,15 @@ textarea {
   background: #fff;
   font-size: 1em;
   /* line-height: 1.5; */
-
   font-family: inherit;
 }
+
 /* We love applying fixes to specific browsers! */
 button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
 input[type="text"],
 input[type="search"],
 input[type="password"] {
@@ -294,25 +316,27 @@ input[type="password"]:focus {
   box-shadow: #d7e0e2 0 2px 4px inset;
   border-color: #61828b;
 }
-.search input[type="text"],
-.search input[type="search"],
-.search input[type="password"] {
+.search input[type="text"], .search
+input[type="search"], .search
+input[type="password"] {
   width: 75%;
   float: left;
 }
 @media screen and (min-width: 30em) {
-  .search input[type="text"],
-  .search input[type="search"],
-  .search input[type="password"] {
+  .search input[type="text"], .search
+  input[type="search"], .search
+  input[type="password"] {
     width: 90%;
   }
 }
+
 .search input[type="text"]::-webkit-input-placeholder {
   color: #b0c1c6;
 }
 .search input[type="text"]:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
 button,
 input[type="submit"] {
   margin: 0;
@@ -327,22 +351,24 @@ input[type="submit"]:active {
   background: #56757d;
   border-color: #56757d;
 }
-.search button,
-.search input[type="submit"] {
+.search button, .search
+input[type="submit"] {
   width: 25%;
   float: left;
   margin-left: -1px;
 }
 @media screen and (min-width: 30em) {
-  .search button,
-  .search input[type="submit"] {
+  .search button, .search
+  input[type="submit"] {
     width: 10%;
   }
 }
+
 button[disabled],
 input[disabled] {
   cursor: not-allowed;
 }
+
 /* @end forms */
 /* @end elements */
 /* @group header */
@@ -369,6 +395,7 @@ input[disabled] {
 .header a:active {
   color: #ea838c;
 }
+
 .go-to-footer {
   padding: .25em .5em;
   font-size: 1.25em;
@@ -377,7 +404,7 @@ input[disabled] {
   border: 0;
   text-align: center;
   position: relative;
-  top: -0.75em;
+  top: -.75em;
   display: block;
   margin-bottom: .5em;
 }
@@ -395,6 +422,7 @@ input[disabled] {
 .go-to-footer:active {
   background: #9c0007;
 }
+
 .header-title {
   font-size: 2em;
   font-family: adelle-1, "AdelleBasic-Bold", "Adelle Basic", "Helvetica Neue", Arial, sans-serif;
@@ -417,6 +445,7 @@ input[disabled] {
     width: 4em;
   }
 }
+
 .header-title span {
   margin-left: -2em;
   margin-right: -2em;
@@ -425,6 +454,7 @@ input[disabled] {
   color: #fff;
   border: 0;
 }
+
 /* @end header */
 /* @group main */
 .main {
@@ -435,6 +465,7 @@ input[disabled] {
   border-bottom: 10px solid #b0c1c6;
   font-size: 125%;
 }
+
 .content {
   padding: 0 5%;
   max-width: 30em;
@@ -443,6 +474,7 @@ input[disabled] {
 .search .content {
   position: relative;
 }
+
 .posted {
   font-style: italic;
   display: block;
@@ -450,16 +482,20 @@ input[disabled] {
   text-align: center;
   margin-bottom: .5em;
 }
+
 .posted::before,
 .posted::after {
   content: '~';
 }
+
 .posted::before {
   margin-right: .25em;
 }
+
 .posted::after {
   margin-left: .25em;
 }
+
 .posts-listing {
   list-style: none;
 }
@@ -468,9 +504,11 @@ input[disabled] {
   border-bottom: 1px solid #eee;
   padding-bottom: 3em;
 }
+
 .link {
   margin-bottom: 1.5em;
 }
+
 .archive {
   margin-bottom: 6em;
 }
@@ -494,8 +532,7 @@ input[disabled] {
   text-align: center;
   display: block;
 }
-.archive > a:hover,
-.archive > a:focus {
+.archive > a:hover, .archive > a:focus {
   color: #efc5c6;
 }
 .archive > a:active {
@@ -513,6 +550,7 @@ input[disabled] {
     display: inline;
   }
 }
+
 /* @end main */
 /* @group about */
 .about {
@@ -520,9 +558,11 @@ input[disabled] {
   background: #fff;
   padding: 1.5em 0;
 }
+
 .about-copy {
   color: #808080;
 }
+
 /* @end about */
 /* @group footer */
 .footer {
@@ -534,23 +574,23 @@ input[disabled] {
   border-color: #b0c1c6;
   outline: none;
 }
-.footer a:hover,
-.footer a:focus {
+.footer a:hover, .footer a:focus {
   border-color: #56757d;
 }
 .footer a:active {
   color: #304146;
   border-color: #304146;
 }
+
 .footer-copy p {
   line-height: 1.25;
   margin: 0 0 1em;
 }
+
 .copyright {
   width: 16em;
   margin: auto;
   /* border-top: 10px solid #b0c1c6; */
-
   border-top: 10px solid #88a1a9;
   padding: 1.5em 0;
 }
@@ -560,6 +600,7 @@ input[disabled] {
   font-weight: bold;
   text-shadow: #fff 0 1px 0;
 }
+
 /* @end footer */
 /* @group misc */
 .hidden {
@@ -567,4 +608,5 @@ input[disabled] {
   visibility: hidden;
   height: 0;
 }
+
 /* @end misc */
