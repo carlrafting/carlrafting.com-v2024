@@ -1,5 +1,5 @@
 ---
-title: The year that was & the year to come
+title: The year that was &amp; the year to come
 layout: post
 ---
 
