@@ -8,12 +8,13 @@ permalink: /archive/
 
 <p class="lead">This is where you'll find every post and every link ever posted on this site since 2010. There are currently <strong>{{ site.posts.size }}</strong> posts & links. If you're looking for any particular post, <a href="#q">try searching for it</a>.</p>
 
-<ul class="posts-listing">
+<ol>
 {% for post in site.posts %}
 
-{% include _listing.html %}
+<li>
+  <a href="{{ post.url }}">{{ post.title }}</a>,
+  <span>{{ post.date | date: '%Y-%m-%d' }}</span>
+</li>
 
 {% endfor %}
-</ul>
-
-
+</ol>

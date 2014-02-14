@@ -1,0 +1,169 @@
+/* @group elements */
+
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+}
+
+body {
+  font: 1em/1.5 $sans-serif;  
+  color: #55757e;
+  background: #d7e0e2;
+  position: relative;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* @group selection */
+
+::-moz-selection {
+  @include selection-styles; 
+}
+::selection { 
+  @include selection-styles;
+}
+
+/* @end selection */
+
+/* @group links */
+
+a {
+  color: #c5171a;
+  text-decoration: none;
+  border-bottom: 2px solid #f0c5c6;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    color: #ae151d;
+    border-color: #ae151d;
+  }
+  
+  &:active {
+    color: #600a0f;
+    border-color: #600a0f;
+  }
+}
+/* @end links */
+
+/* @group tables */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* @end tables */
+
+/* @group forms */
+
+.search {
+  padding-top: 3em;
+}
+
+button,
+input,
+select,
+textarea {
+  color: #444;
+  background: #fff;
+  font-size: 1em;
+  /* line-height: 1.5; */
+  font-family: inherit;
+}
+
+/* We love applying fixes to specific browsers! */
+button::-moz-focus-inner {
+  border:0;
+  padding:0;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="password"] {
+  color: #56757d;
+  @include box-sizing(border-box);
+  max-width: 100%;
+  margin: 0;
+  padding: .25em;
+  background: #d7e0e2;
+  -webkit-appearance: none;
+  border: 1px solid #b0c1c6;
+  border-radius: 0;
+  outline: none;
+  @include box-shadow(#b0c1c6 0 2px 4px inset);
+
+  &:focus {
+    background: #fff;
+    @include box-shadow(#d7e0e2 0 2px 4px inset);
+    border-color: #61828b;
+  }
+
+  .search & {
+    width: 75%;
+
+    @media screen and (min-width: 30em) {
+      width: 90%;
+    }
+
+    float: left;
+  }
+}
+
+input[type="text"] {
+  .search &::-webkit-input-placeholder {
+    color: #b0c1c6;
+  }
+
+  .search &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+}
+
+button,
+input[type="submit"] {
+  margin: 0;
+  background: #61828b;
+  border: 1px solid #61828b;
+  color: #fff;
+  padding: .25em .75em;
+
+  &:active {
+    color: #d7e0e2;
+    background: #56757d;
+    border-color: #56757d;
+  }
+
+  .search & {
+    width: 25%;
+
+    @media screen and (min-width: 30em) {
+      width: 10%;
+    }
+
+    float: left;
+    margin-left: -1px;
+  }
+}
+
+button[disabled],
+input[disabled] {
+  cursor: not-allowed;
+}
+
+/* @end forms */
+
+/* @end elements */
+
+/* @group misc */
+
+.hidden { display: block; visibility: hidden; height: 0; }
+
+/* @end misc */

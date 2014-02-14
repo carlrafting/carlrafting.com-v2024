@@ -10,19 +10,15 @@ p(lead). My name is Carl Räfting and i’m currently spending my time studying 
 
 h2. Computer Setup & Software
 
-The computer of choice is a "Apple 13'' MacBook":http://support.apple.com/kb/sp500 with the aluminum unibody, often used in clamshell mode attached to a "24'' LED Cinema Display":http://support.apple.com/kb/sp502. Design exploring happens in Adobe Photoshop, markup and styles are mostly written in "Coda":http://panic.com/coda/ but i also use "Espresso":http://macrabbit.com/espresso/ a lot.
+The computer of choice is a "Apple 13'' MacBook":http://support.apple.com/kb/sp500 with the aluminum unibody, often used in clamshell mode attached to a "24'' LED Cinema Display":http://support.apple.com/kb/sp502. Design exploring happens in Adobe Photoshop, markup and styles are written in "TextMate 2":https://github.com/textmate/textmate.
 
 h2. Technology
 
-This site is HTML5 ready and uses some HTML5 attributes. Stylesheets are developed using "Sass":http://sass-lang.com/ and "Compass":http://compass-style.org/. The stylesheets uses some properties found in the CSS3 specification. This site is generated with "Jekyll":http://jekyllrb.com and is basically just static files hosted on a VPS at "Glesys":http://www.glesys.se/vps.php.
+Stylesheets are developed using "Sass":http://sass-lang.com/ and "Compass":http://compass-style.org/. This site is generated with "Jekyll":http://jekyllrb.com and is basically just static files hosted on "Github Pages":http://pages.github.com.
 
 h2. Typefaces
 
-There are four different typfaces in use on this website. Headings are set in the beautiful *Adelle Web* served via "Typekit":https://typekit.com/. The body text is set in *PT Sans*, served via "Google Fonts":http://www.google.com/fonts/. Code samples are set in *Menlo* on Mac and *Monaco* or *Courier New* on other platforms and devices. Text that is emphasised is set in *Baskerville Italic*.
-
-h2. Style guide
-
-If you want, you can have a "look at the style guide":/styleguide/ i use for this site.
+There are four different typfaces in use on this website. Headings are set in the beautiful *Adelle Web* served via "Typekit":https://typekit.com/. The body text is set in *Avenir Next*, if you have it installed, otherwise, Helvetica Neue or Arial. Code samples are set in *Menlo* on Mac and *Monaco* or *Courier New* on other platforms and devices.
 
 h2. Web services
 

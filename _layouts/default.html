@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 {% if page.page-home %}
 <title>Carl Räfting</title>
@@ -12,14 +13,11 @@
 <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
 <link rel="canonical" href="{{ page.redirect }}">
 {% endif %}
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700" media="all">
 <!-- You can find unminified version here: http://carlrafting.com/css/global.css -->
-<link rel="stylesheet" href="/css/global.min.css" media="all">
+<link rel="stylesheet" href="/css/global.min.css">
 <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/carlrafting" title="RSS-Feed — Carl Räfting">
 <link rel="shortcut icon" href="/favicon.ico">
-<script src="/mint/?js"></script>
-<script src="//use.typekit.net/ifu1lpm.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+
 </head>
 {% if page.page-home %}
 <body class="page-home">
@@ -28,15 +26,13 @@
 {% endif %}
 
 <div class="header" role="banner" id="page-top">
-
-<a class="go-to-footer" href="#page-bottom">Navigation</a>
+  <a class="go-to-footer" href="#page-bottom">Navigation</a>
 
 {% if page.page-home %}
-<h1><a class="header-title" href="/"><span>Carl Räfting</span></a></h1>
+  <h1><a class="header-title" href="/"><span>Carl Räfting</span></a></h1>
 {% else %}
-<a class="header-title" href="/"><span>Carl Räfting</span></a>
+  <a class="header-title" href="/"><span>Carl Räfting</span></a>
 {% endif %}
-
 </div>
 <!-- //.header -->
 
@@ -52,21 +48,18 @@
 <!-- //.content -->
 
 <div class="search">
+  <div class="content">
 
-<div class="content">
+    <h3><label for="q">Search</label></h3>
 
-<h3><label for="q">Search</label></h3>
-
-<form action="http://google.com/cse">
-<input type="hidden" name="cx" value="003981612103502930183:i5dsqip22mu">
-<input type="hidden" name="ie" value="UTF-8">
-<input type="text" id="q" name="q" size="40" placeholder="jekyll, web development, javascript, textpattern, etc...">
-<button type="submit" name="sa">Go</button>
-</form>
-
-</div>
-<!-- //.content -->
-
+    <form action="http://google.com/cse">
+      <input type="hidden" name="cx" value="003981612103502930183:i5dsqip22mu">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input type="text" id="q" name="q" size="40" placeholder="jekyll, web development, javascript, textpattern, etc...">
+      <button type="submit" name="sa">Go</button>
+    </form>
+  </div>
+  <!-- //.content -->
 </div>
 <!-- //.search -->
 
@@ -76,20 +69,44 @@
 <hr>
 
 <div class="footer" role="contentinfo" id="page-bottom">
+  <p class="copyright"><small>&copy; 2006 - {{ site.time | date: '%Y' }} Carl Räfting.</small></p>
 
-<p class="copyright"><small>&copy; 2006 - {{ site.time | date: '%Y' }} Carl Räfting.</small></p>
-
-<div class="footer-copy" role="navigation">
-<p>Find out more <a href="/about/">about this site</a>. Browse older posts <a href="/archive/">in the archive</a>.</p>
-<p>Subscribe to the <a href="http://feeds.feedburner.com/carlrafting">RSS-feed</a> for <a href="/">carlrafting.com</a>.</p>
-<p>Go to <a class="go-back-up" href="#page-top">page top</a>.</p>
-</div>
-
+  <div class="footer-copy" role="navigation">
+    <p>Find out more <a href="/about/">about this site</a>. Browse older posts <a href="/archive/">in the archive</a>.</p>
+    <p>Subscribe to the <a href="http://feeds.feedburner.com/carlrafting">RSS-feed</a> for <a href="/">carlrafting.com</a>.</p>
+    <ul>
+      <li><a href="/styleguide">Style guide</a></li>
+      <li><a href="https://github.com/carlrafting/carlrafting.github.io">Source</a></li>
+    </ul>
+    <p>Go to <a class="go-back-up" href="#page-top">page top</a>.</p>
+  </div>
 </div>
 <!-- //.footer -->
 
 {% include _analytics.html %}
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'ifu1lpm',
+      scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 <script src="/js/global.js"></script>
+<script>
+(function (globals, d) {
+  if (globals.location.host === 'carlrafting.dev') {
+    var config = {
+      port: 4444
+    },
+    livereload = d.createElement('script');
+    livereload.src = "//localhost:" + config.port + "/livereload.js";
+
+    d.body.appendChild(livereload);
+  }
+}(this, this.document));
+</script>
 
 </body>
 </html>

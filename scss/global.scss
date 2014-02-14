@@ -1,10 +1,19 @@
 @import 'compass/css3';
 
+@import 'partials/variables';
+@import 'partials/mixins';
+
+@import 'partials/reset';
+@import 'partials/typography';
+
+@import 'partials/header';
 @import 'partials/main';
+@import 'partials/footer';
+
+@import 'partials/about';
+@import 'partials/archive';
+@import 'partials/post';
 
 @media print {
-
-@import 'partials/print';
-
+  @import 'partials/print';
 }
-
