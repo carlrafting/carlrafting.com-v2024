@@ -10,6 +10,6 @@ Before i used "#grid":http://hashgrid.com, by the folks at "Analog":http://analo
 
 My goal was to get something out there as quickly as possible, and worry about optimization and performance later. All in all i spent about a week to get to where i am now, i  designed the grid layout and some basic script functionality the first day. Following days was spent on code for generating a baseline grid and columns.
 
-h2. Check it out!
+<hr class="divider">
 
-You can "check out more about the project and how to set up the grid":/designGrid/, and then "download the code from Github":https://github.com/carlrafting/designGrid. 
+You can "check out more about the project and how to set up the grid":/designgrid/, and then "download the code from Github":https://github.com/carlrafting/designgrid. 
