@@ -1,8 +1,6 @@
 _drafts/
 .DS_Store
 .sass-cache/
-home.psd
-import.sh
 .ruby-version
-_site/
+.build/
 node_modules/

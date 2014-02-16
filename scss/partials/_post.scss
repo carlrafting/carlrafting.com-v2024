@@ -38,6 +38,10 @@
   & a {
     color: #444;
     border: 0;
+    
+    &:hover {
+      border-bottom: 2px solid lighten(#444, 66%) !important;
+    }
   }
 }
 

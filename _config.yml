@@ -1,4 +1,5 @@
 permalink: /:title
 pygments: true
+destination: ./.build
 
-exclude: ['Gruntfile.js', 'package.json', 'node_modules',  'scss', 'docs', 'compass.rb']
+exclude: ['gulpfile.js', 'package.json', 'node_modules', 'docs', 'config.rb']

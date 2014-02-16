@@ -1,4 +1,6 @@
 var gulp = require('gulp');
+
+var clean = require('gulp-clean');
 var gutil = require('gulp-util');
 var rename = require('gulp-rename');
 var csso = require('gulp-csso');
@@ -22,6 +24,12 @@ gulp.task('watch', function () {
       gulp.run('minify');
     });
   });
+});
+
+gulp.task('clean', function () {
+  return gulp.src('.build', { read: false })
+    .pipe(clean())
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('default', function (){
