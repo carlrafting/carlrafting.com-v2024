@@ -4,4 +4,4 @@ layout: link
 link: http://filamentgroup.com/lab/performance-rwd.html
 ---
 
-Scott Jehl at "Filament Group":http://filamentgroup.com/ recently posted an article that covers the best practices and methods they use to make RWD as performant as possible.
+Scott Jehl at "Filament Group":http://filamentgroup.com/ recently posted an article that covers the best practices and methods they use to make RWD as performant as possible. Interesting reading.
