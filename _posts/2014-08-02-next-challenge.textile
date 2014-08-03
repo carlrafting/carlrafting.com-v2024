@@ -4,4 +4,4 @@ title: The Next Challenge of the Web is Us
 link: https://www.youtube.com/watch?v=QPRqQH_30hU
 ---
 
-This talk by Christian Heilman has a lot in common with the post about "“Simplicity”":{% post_url 2014-07-30-simplicity %} i posted earlier. One thing he talks about is how developers on the web, tend to focus too much on the tools and perhaps abstract too much sometimes. Web Components and ServiceWorker are other another interesting topics he covers. 
+This talk by Christian Heilman has a lot in common with the post about "“Simplicity”":{% post_url 2014-07-30-simplicity %} i posted earlier. One thing he talks about is how developers on the web, tend to focus too much on the tools and perhaps abstract too much sometimes. Web Components and ServiceWorker are other interesting topics he covers. 
