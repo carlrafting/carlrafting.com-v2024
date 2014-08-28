@@ -4,3 +4,4 @@ _drafts/
 .ruby-version
 .build/
 node_modules/
+*.log

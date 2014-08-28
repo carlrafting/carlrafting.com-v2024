@@ -5,7 +5,7 @@
   "author": "Carl Räfting",
   "devDependencies": {
     "gulp-util": "~2.2.9",
-    "gulp": "~3.3.0",
+    "gulp": "~3.8.5",
     "gulp-rename": "~0.2.1",
     "gulp-csso": "~0.1.7",
     "gulp-livereload": "~0.2.0",

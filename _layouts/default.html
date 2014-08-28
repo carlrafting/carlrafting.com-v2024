@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
 
-<meta charset="utf-8">
-{% if page.page-home %}
-<title>Carl Räfting</title>
-{% else %}
-<title>{{ page.title }} &mdash; Carl Räfting</title>
-{% endif %}
-<meta name="viewport" content="width=device-width">
-{% if page.redirect %}
-<meta http-equiv="refresh" content="0; url={{ page.redirect }}">
-<link rel="canonical" href="{{ page.redirect }}">
-{% endif %}
-<!-- You can find unminified version here: http://carlrafting.com/css/global.css -->
-<!-- <link rel="stylesheet" href="/css/global.css"> -->
-<link rel="stylesheet" href="/css/global.min.css">
-<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/carlrafting" title="RSS-Feed — Carl Räfting">
-<link rel="shortcut icon" href="/favicon.ico">
+  <meta charset="utf-8">
+  {% if page.page-home %}
+  <title>Carl Räfting</title>
+  {% else %}
+  <title>{{ page.title }} &mdash; Carl Räfting</title>
+  {% endif %}
+  <meta name="viewport" content="width=device-width">
+  {% if page.redirect %}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+  <link rel="canonical" href="{{ page.redirect }}">
+  {% endif %}
+  <!-- You can find unminified version here: http://carlrafting.com/css/global.css -->
+  <!-- /css/global.css -->
+  <link rel="stylesheet" href="/css/global.min.css" media="screen">
+  <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/carlrafting" title="RSS-Feed — Carl Räfting">
+  <link rel="shortcut icon" href="/favicon.ico">
 
 </head>
 {% if page.page-home %}
@@ -85,13 +85,6 @@
 <!-- //.footer -->
 
 <script>
-(function (global) {
-  var modules = {};
-  
-  global.modules = modules;
-}(this));
-</script>
-<script>
   WebFontConfig = {
     typekit: { id: 'ifu1lpm' }
   };
@@ -107,8 +100,8 @@
   })();
 </script>
 <script>
-(function (global) {
-  if (window.location.host !== 'carlrafting.dev') {
+(function (w) {
+  if (w.location.host !== 'carlrafting.dev') {
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-1391111-4']);
     _gaq.push(['_trackPageview']);
@@ -120,28 +113,6 @@
     })();
   }
 }(this));
-</script>
-<script>
-(function (global, d, modules) {
-  var host = global.location.host;
-  
-  if (host === 'carlrafting.dev') {
-    var config = {
-      port: 4444
-    },
-    livereload = d.createElement('script');
-    livereload.src = "//localhost:" + config.port + "/livereload.js";
-
-    // d.body.appendChild(livereload);
-    
-    modules.livereload = livereload;    
-  }
-}(this, this.document, this.modules));
-</script>
-<script>
-(function (global, modules) {
-  console.log(modules);
-}(this, this.modules));
 </script>
 
 </body>
