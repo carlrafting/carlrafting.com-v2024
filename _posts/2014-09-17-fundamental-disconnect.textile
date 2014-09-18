@@ -1,0 +1,11 @@
+---
+title: A Fundamental Disconnect
+link-url: http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/
+date: 2014-09-17 13:52
+---
+
+bq. The one problem I’ve seen, however, is the fundamental disconnect many of these developers seem to have with the way deploying code on the Web works. In traditional software development, we have some say in the execution environment. On the Web, we don’t.
+
+I "tweeted the other":https://twitter.com/carlrafting/status/511076515157929984 day saying “Feels strange calling the web a platform”. I think that ties into this article by Aaron Gustafson pretty well.
+
+Many software developers with a more traditional background, tend to treat the web as a platform. Like iOS, Android or even Windows and OS X. But the web isn’t like that right? It’s a chaos!
