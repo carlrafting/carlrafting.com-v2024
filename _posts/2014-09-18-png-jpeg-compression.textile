@@ -1,6 +1,7 @@
 ---
 title: Using SVG to shrink your PNGs
-link-url: http://peterhrynkow.com/how-to-compress-a-png-like-a-jpeg/
+layout: link
+url: http://peterhrynkow.com/how-to-compress-a-png-like-a-jpeg/
 date: 2014-09-18 22:42
 ---
 

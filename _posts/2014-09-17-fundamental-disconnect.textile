@@ -1,6 +1,7 @@
 ---
 title: A Fundamental Disconnect
-link-url: http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/
+url: http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/
+layout: link
 date: 2014-09-17 13:52
 ---
 
