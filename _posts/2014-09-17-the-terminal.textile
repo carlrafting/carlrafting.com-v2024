@@ -1,7 +1,7 @@
 ---
 title: The Terminal
 layout: link
-url: http://furbo.org/2014/09/03/the-terminal/
+link: http://furbo.org/2014/09/03/the-terminal/
 date: 2014-09-17 13:37
 ---
 
