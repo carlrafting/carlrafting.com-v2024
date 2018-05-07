@@ -17,7 +17,7 @@ permalink: /feed/feed.xml
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://carlrafting.com{{ post.url }}"/>
+   <link href="https://carlrafting.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>https://carlrafting.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
