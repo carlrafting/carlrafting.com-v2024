@@ -1,5 +1,4 @@
 permalink: /:title
-highlighter: true
 destination: ./.build
 
 exclude: ['gulpfile.js', 'package.json', 'node_modules', 'docs', 'config.rb']
