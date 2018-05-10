@@ -1,0 +1,42 @@
+--- 
+title: "“New web project”, no longer silly."
+layout: post
+published: false
+---
+
+Almost two years ago (*gasp!*), i released the [first version of “New
+web project”](/new-webproject/). I didn’t have to push it live, since
+all it was used for, was my own personal projects. At the time i took a
+lot of inspiration from [HTML5 Boilerplate’s build
+script](https://github.com/h5bp/ant-build-script) (now in a new
+incarnation, called [Yeoman](http://yeoman.io/)), and threw together
+this silly project. So why did i? I wanted to learn. I simply wanted to
+plant a seed and see what it would transform into. \* **EDIT** \* How
+embarrassing it all seemed. That what makes the web *the web*. It’s easy
+to share.
+
+“New web project” did evolve, it did turn into something else. It now
+uses [Grunt](http://gruntjs.com/), to run all sorts of different tasks.
+Concatenation, minification, Sass compilation etc. For a long time i’ve
+looked for ways to do these kinds of tasks automatically. Manually doing
+all of these tasks is just frustrating and time consuming. Quite
+frankly, it makes you not wanting to work with that project anymore. You
+don’t want to be thinking about this stuff. You want to focus on the
+project, right?
+
+I’ve tried to get into [node](http://nodejs.org) for awhile (which Grunt
+is built upon), but i just couldn’t grasp it or understand why it would
+benefit me. Maybe the mistake was thinking node was a framework, like
+[Rails](http://rubyonrails.org). Which it’s **clearly** isn’t. It’s much
+more than that. Then i also heard about this Grunt thing, and decided to
+take a look at it. I didn’t understand how it worked at first either,
+but i watched a couple of videos and [read the
+documentation](http://gruntjs.com/getting-started) on the website (which
+is really good, kudos to the
+[Grunt-team](https://github.com/gruntjs/grunt/contributors)). It wasn’t
+that complicated.
+
+The new version of [“New web project” is now available at
+Github](https://github.com/carlrafting/new-web-project). It’s still
+mainly for myself, but anyone is welcome to come with suggestions or use
+it and adapt to their own workflow.

@@ -1,0 +1,15 @@
+--- 
+layout: link
+title: Method &amp; Craft
+link: http://methodandcraft.com/
+---
+
+Recently launched and built by [Phil Coffman](http://philcoffman.com/),
+[Noah Stokes](http://noahstokes.com/) & [Trent
+Walton](http://trentwalton.com/). The about page explains:
+
+> We all use the same tools, but we use them differently. We strive to
+> educate you on more efficient, creative, and engaging ways to create
+> your design. This site will not only be valuable to creative veterans,
+> but also educational to those new to the design field. It’s like
+> looking over the shoulder of your favorite designer.
