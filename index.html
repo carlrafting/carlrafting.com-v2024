@@ -1,43 +1,12 @@
 ---
-layout: default
-title: Home
-page-home: true
+layout: robot
+title: carlrafting.com
 ---
 
-<ul class="posts-listing">
-{% for post in site.posts limit: 10 %}
-
-{% if post.layout == 'link' %}
-<li class="link">
-  <h2 class="link-title"><a href="{{ post.url }}">{{ post.title }}</a> <a href="{{ post.link }}">»</a></h2>
-
-  <p class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}" pubdate>{{ post.date | date: '%d %B, %Y' }}</time></p>
-
-{{ post.content | textilize }}
-</li>
-{% endif %}
-
-{% if post.layout == 'post' %}
-<li class="post">
-  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  
-  <p class="posted"><time datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}" pubdate>{{ post.date | date: '%d %B, %Y' }}</time></p>
-  
-{{ post.content | textilize }}
-</li>
-{% endif %}
-
-{% endfor %}
-</ul>
-
-<div class="archive">
-  <h3>Older articles</h3>
-  
-  <a href="/archive/">Archive</a>
+<div class="container">
+  <div class="robot">
+    <span class="robot-emoji">🤖</span>
+    <br>
+    <span class="robot-text bubble">Nothing to see here, human...</span>
+  </div>
 </div>
-
-<!--<div class="about">
-  <h3>About</h3>
-  
-  <p class="about-copy">…</p>
-</div>-->
