@@ -35,10 +35,11 @@ body {
   background: #eee;
   padding: 1em;
   border-radius: 1em;
-  position: relative;
+  /* position: relative; */
   transition: opacity 100ms, transform 100ms;
   animation: fadein 250ms ease-in;
   opacity: 1;
+  display: inline-block;
 }
 .bubble a {
   color: inherit;
