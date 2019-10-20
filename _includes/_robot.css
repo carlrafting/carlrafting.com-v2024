@@ -14,7 +14,7 @@ body {
 .robot-emoji {
   font-size: 4em;
   display: inline-block;
-  margin-bottom: .25em;
+  margin-bottom: .1em;
 }
 .js-active .robot-emoji {
   cursor: pointer;
@@ -37,16 +37,21 @@ body {
   border-radius: 1em;
   /* position: relative; */
   transition: opacity 100ms, transform 100ms;
-  animation: fadein 250ms ease-in;
+  animation: fadein 250ms ease-in-out;
   opacity: 1;
   display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
 }
-.bubble a {
+.bubble--link {
+  color: #fff;
+  background: dodgerblue;
+}
+.bubble--link a {
   color: inherit;
   text-decoration: none;
 }
-.bubble a:hover {
-  color: #444;
+.bubble--link a:hover {
   text-decoration: underline;
 }
 
