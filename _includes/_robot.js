@@ -25,6 +25,9 @@ robot.onclick = function robotOnClick() {
     window.requestAnimationFrame(function () {
       text.style.opacity = 0;
       setTimeout(function () {
+        url && text.classList.contains('bubble') ?
+          text.classList.add('bubble--link') :
+          text.classList.remove('bubble--link');
         text.innerHTML = url ? `<a href='${url}'>${quote}</a>` : quote;
         text.style.opacity = 1;
         clicked = false;
