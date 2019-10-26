@@ -1,7 +1,9 @@
---- 
+---
 layout: link
 title: Web Standards Sherpa
 link: http://webstandardssherpa.com/
+hidden: true
+redirect_to: /home
 ---
 
 An excerpt from the [about page](http://webstandardssherpa.com/about),

@@ -1,7 +1,9 @@
---- 
+---
 layout: link
 title: Method &amp; Craft
 link: http://methodandcraft.com/
+hidden: true
+redirect_to: /home
 ---
 
 Recently launched and built by [Phil Coffman](http://philcoffman.com/),

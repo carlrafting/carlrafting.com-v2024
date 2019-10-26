@@ -1,6 +1,8 @@
---- 
+---
 layout: post
 title: "designGrid — A grid-tool for fluid grids"
+hidden: true
+redirect_to: /home
 ---
 
 “<img src="/images/10.png" alt="" width="600">”:/images/10.png

@@ -3,6 +3,8 @@ title: A Fundamental Disconnect
 link: http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/
 layout: link
 date: 2014-09-17 13:52
+hidden: true
+redirect_to: /home
 ---
 
 > The one problem I’ve seen, however, is the fundamental disconnect many

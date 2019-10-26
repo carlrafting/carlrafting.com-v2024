@@ -1,6 +1,8 @@
---- 
+---
 layout: post
 title: 'autogrow — Less frustrating textareas'
+hidden: true
+redirect_to: /home
 ---
 
 Last week, [about one week after i released

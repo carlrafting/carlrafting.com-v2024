@@ -1,8 +1,10 @@
---- 
+---
 tags: []
 
 layout: post
 title: Using PHP Files For Pages &amp; Article Forms in Textpattern
+redirect_to: /home
+hidden: true
 ---
 
 Thanks to Jon Hicks tip on [Using files for page templates in

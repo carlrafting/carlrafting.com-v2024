@@ -3,6 +3,8 @@ title: The Terminal
 layout: link
 link: http://furbo.org/2014/09/03/the-terminal/
 date: 2014-09-17 13:37
+hidden: true
+redirect_to: /home
 ---
 
 As a web developer i spend quite a lot of time working on the

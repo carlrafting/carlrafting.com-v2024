@@ -1,7 +1,9 @@
---- 
+---
 layout: link
 title: We, Who Are Web Designers
 link: http://jontangerine.com/log/2011/09/we-who-are-web-designers
+hidden: true
+redirect_to: /home
 ---
 
 Jon Tangerine writes about what it means to be a web designer and how

@@ -1,7 +1,9 @@
---- 
+---
 layout: link
 title: Success, and Farming vs. Mining
 link: http://blog.wilshipley.com/2011/04/success-and-farming-vs-mining.html
+hidden: true
+redirect_to: /home
 ---
 
 Wil Shipley talks about the farming vs. mining approach as a metaphor

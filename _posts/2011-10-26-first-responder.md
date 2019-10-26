@@ -1,7 +1,9 @@
---- 
+---
 layout: link
 title: First Responder
 link: http://robweychert.com/writing/first-responder/
+hidden: true
+redirect_to: /home
 ---
 
 In his latest blog-post, Rob Weychert writes about how he constructed

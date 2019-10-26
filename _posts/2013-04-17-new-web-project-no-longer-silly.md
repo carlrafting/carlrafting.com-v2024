@@ -1,7 +1,9 @@
---- 
+---
 title: "“New web project”, no longer silly."
 layout: post
 published: false
+hidden: true
+redirect_to: /home
 ---
 
 Almost two years ago (*gasp!*), i released the [first version of “New

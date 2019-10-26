@@ -1,6 +1,8 @@
 ---
 title: Version Se7en
 layout: post
+hidden: true
+redirect_to: /home
 ---
 
 Today marks the seventh version of carlrafting.com. It has been a long

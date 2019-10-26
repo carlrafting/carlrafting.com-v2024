@@ -1,7 +1,9 @@
---- 
+---
 layout: link
 title: Responsive Web Design
 link: http://www.abookapart.com/products/responsive-web-design
+hidden: true
+redirect_to: /home
 ---
 
 Ethan Marcotte’s long awaited [book about responsive web

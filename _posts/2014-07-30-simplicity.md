@@ -2,6 +2,8 @@
 title: Simplicity
 layout: link
 link: http://bastianallgeier.com/notes/simplicity
+hidden: true
+redirect_to: /home
 ---
 
 > The longer I look at boilerplates, build tools, frameworks and ways to

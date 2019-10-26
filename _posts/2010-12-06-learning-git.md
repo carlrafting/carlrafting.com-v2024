@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Learning Git
+redirect_to: /home
+hidden: true
 ---
 
 You’ve probably heard about this version control system called

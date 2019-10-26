@@ -2,6 +2,8 @@
 title: Trello, Inc
 layout: link
 link: http://www.joelonsoftware.com/items/2014/07/24.html
+hidden: true
+redirect_to: /home
 ---
 
 Joel Spolsky goes into detail how Trello went from a product at [Fog
