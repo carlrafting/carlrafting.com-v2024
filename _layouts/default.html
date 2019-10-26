@@ -4,19 +4,15 @@
 
   <meta charset="utf-8">
   {% if page.page-home %}
-  <title>Carl Räfting</title>
+  <title>{{ site.title }}</title>
   {% else %}
   <title>{{ page.title }} &mdash; Carl Räfting</title>
   {% endif %}
   <meta name="viewport" content="width=device-width">
-  {% if page.redirect %}
-  <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
-  <link rel="canonical" href="{{ page.redirect }}">
-  {% endif %}
   <!-- You can find unminified version here: http://carlrafting.com/css/global.css -->
   <!-- /css/global.css -->
   <link rel="stylesheet" href="/css/global.min.css" media="screen">
-  <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/carlrafting" title="RSS-Feed — Carl Räfting">
+  <!-- <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/carlrafting" title="RSS-Feed — Carl Räfting"> -->
   <link rel="shortcut icon" href="/favicon.ico">
 
 </head>
@@ -30,9 +26,9 @@
   <a class="go-to-footer" href="#page-bottom">Navigation</a>
 
 {% if page.page-home %}
-  <h1><a class="header-title" href="/home"><span>Carl Räfting</span></a></h1>
+  <h1><a class="header-title" href="/"><span>Carl Räfting</span></a></h1>
 {% else %}
-  <a class="header-title" href="/home"><span>Carl Räfting</span></a>
+  <a class="header-title" href="/"><span>Carl Räfting</span></a>
 {% endif %}
 </div>
 <!-- //.header -->
@@ -48,21 +44,6 @@
 </div>
 <!-- //.content -->
 
-<div class="search">
-  <div class="content">
-
-    <h3><label for="q">Search</label></h3>
-
-    <form action="https://duckduckgo.com/">
-      <input type="hidden" name="sites" value="carlrafting.com">
-      <input type="text" id="q" name="q" size="40" placeholder="jekyll, web development, javascript, textpattern, etc...">
-      <button type="submit">Go</button>
-    </form>
-  </div>
-  <!-- //.content -->
-</div>
-<!-- //.search -->
-
 </div>
 <!-- //.main -->
 
@@ -73,7 +54,7 @@
 
   <div class="footer-copy" role="navigation">
     <p>Browse older posts <a href="/archive/">in the archive</a>.</p>
-    <p>Subscribe to the <a href="https://feeds.feedburner.com/carlrafting">RSS-feed</a> for <a href="/">carlrafting.com</a>.</p>
+    <p>Subscribe to the <a href="#">RSS-feed</a> for <a href="/">carlrafting.com</a>.</p>
     <ul>
       <li><a href="https://github.com/carlrafting/carlrafting.github.io">Source</a></li>
     </ul>
