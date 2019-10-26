@@ -3,7 +3,7 @@ layout: link
 title: "24 ways: Optimize Your Web Design Workflow"
 link: http://24ways.org/2010/optimize-your-web-design-workflow
 hidden: true
-redirect_to: /home
+redirect_to: /
 ---
 
 I fully agree with Veerle, that it’s necessary to use photoshop to able

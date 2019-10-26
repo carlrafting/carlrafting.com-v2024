@@ -4,7 +4,7 @@ tags: []
 layout: post
 title: New webproject. A quick silly ~1 hour weekend project
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 This idea came to me when i thought to myself, what if i could just type

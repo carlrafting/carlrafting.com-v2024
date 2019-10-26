@@ -3,7 +3,7 @@ layout: link
 title: On Tools and Clients
 link: http://esbueno.noahstokes.com/post/7343841587/on-tools-and-clients
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 Noah Stokes touches on a subject that is very common in the web

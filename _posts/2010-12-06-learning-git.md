@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Git
-redirect_to: /home
+redirect_to: /
 hidden: true
 ---
 

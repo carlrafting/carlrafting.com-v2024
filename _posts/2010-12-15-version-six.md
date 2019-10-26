@@ -2,7 +2,7 @@
 layout: post
 title: Version Six
 hidden: true
-redirect_to: /home
+redirect_to: /
 ---
 
 It was nearly two years ago since the last redesign, this marks the

@@ -2,7 +2,7 @@
 title: The year that was &amp; the year to come
 layout: post
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 Another year has passed, this one is shaping up to be a better one than

@@ -3,7 +3,7 @@ layout: link
 title: The Next Challenge of the Web is Us
 link: https://www.youtube.com/watch?v=QPRqQH_30hU
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 This talk by Christian Heilmann has a lot in common with the post about

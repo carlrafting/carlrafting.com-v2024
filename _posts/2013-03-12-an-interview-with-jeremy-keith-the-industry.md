@@ -3,7 +3,7 @@ title: An Interview with Jeremy Keith - The Industry
 layout: link
 link: http://theindustry.cc/2013/03/11/an-interview-with-jeremy-keith/
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 If you’re doing web development, [Jeremy Keith](http://adactio.com) is

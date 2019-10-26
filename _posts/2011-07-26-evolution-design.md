@@ -4,7 +4,7 @@ tags: []
 layout: post
 title: The Evolution of a Design
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 One of the things that makes designing for the web so appealing, is that

@@ -4,7 +4,7 @@ tags: []
 layout: post
 title: A note on media-queries and mobile devices
 hidden: true
-redirect_to: /home
+redirect_to: / 
 ---
 
 These days, there is a lot of talk about reponsive design and
