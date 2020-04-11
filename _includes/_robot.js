@@ -3,7 +3,10 @@ document.documentElement.className+='js-active';
 const robot = document.querySelector('.robot-emoji');
 const text = document.querySelector('.robot-text');
 
-// const history = [];
+text.innerHTML = 'Hello Human, Click/Tap me!';
+
+// let history = [];
+
 const quotes = [
   { id: 1, quote: 'I\'ll be back!', url: 'https://www.imdb.com/title/tt0088247/' },
   { id: 2, quote: 'You\'ve angered the robot!' },
@@ -21,6 +24,9 @@ robot.onclick = function robotOnClick() {
   if (!clicked) {
     const random = Math.floor(Math.random() * quotes.length);
     const { quote, url } = [...quotes][random];
+		
+		// history = history.concat([ quotes[random] ]);
+		// console.log(history);
 
     window.requestAnimationFrame(function () {
       text.style.opacity = 0;
