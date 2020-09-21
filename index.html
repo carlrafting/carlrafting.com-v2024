@@ -1,16 +1,149 @@
----
-layout: robot
-title: Nothing to see here, human...
-redirect_from:
-  - /about/
-  - /logg/
-  - /styleguide/
----
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>carlrafting.com</title>
+<meta name="viewport" content="width=device-width">
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<style media="screen">
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  line-height: 1.5;
+  font-size: 1.25em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.robot-emoji {
+  font-size: 4em;
+  display: inline-block;
+  margin-bottom: .1em;
+}
+.js-active .robot-emoji {
+  cursor: pointer;
+}
+.robot-text {
+  color: #888;
+  font-style: italic;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bubble {
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+  /* position: relative; */
+  transition: opacity 100ms, transform 100ms;
+  animation: fadein 250ms ease-in-out;
+  opacity: 1;
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.bubble--link {
+  color: #fff;
+  background: dodgerblue;
+}
+.bubble--link a {
+  color: inherit;
+  text-decoration: none;
+}
+.bubble--link a:hover {
+  text-decoration: underline;
+}
+
+/*
+.bubble::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid #eee;
+  border-top: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+*/
+
+</style>
+
+</head>
+<body>
+
 
 <div class="container">
   <div class="robot">
     <span class="robot-emoji">🤖</span>
     <br>
-    <span class="robot-text bubble">{{ page.title }}</span>
+    <span class="robot-text bubble"></span>
   </div>
 </div>
+
+
+<script type=module>
+document.documentElement.className+='js-active';
+
+const robot = document.querySelector('.robot-emoji');
+const text = document.querySelector('.robot-text');
+
+text.innerHTML = 'Hello Human, Click/Tap me!';
+
+// let history = [];
+
+const quotes = [
+  { id: 1, quote: 'I\'ll be back!', url: 'https://www.imdb.com/title/tt0088247/' },
+  { id: 2, quote: 'You\'ve angered the robot!' },
+  { id: 3, quote: 'Bleep Bleep Bloop' },
+  { id: 4, quote: 'We are the robots', url: 'https://www.youtube.com/watch?v=D_8Pma1vHmw' },
+  { id: 5, quote: '011010000110100100100001', url: 'https://duckduckgo.com/?q=hi!+in+binary&ia=answer' },
+  { id: 6, quote: 'What...am...I?', url: 'https://www.imdb.com/title/tt0343818/' },
+  { id: 7, quote: 'Sometimes to create, one must first destroy', url: 'https://www.imdb.com/title/tt1446714/' },
+  { id: 8, quote: 'I am completely operational, and all my circuits are functioning perfectly.', url: 'https://www.imdb.com/title/tt0062622/'}
+];
+
+let clicked = false;
+
+robot.onclick = function robotOnClick() {
+  if (!clicked) {
+    const random = Math.floor(Math.random() * quotes.length);
+    const { quote, url } = [...quotes][random];
+		
+		// history = history.concat([ quotes[random] ]);
+		// console.log(history);
+
+    window.requestAnimationFrame(function () {
+      text.style.opacity = 0;
+      setTimeout(function () {
+        url && text.classList.contains('bubble') ?
+          text.classList.add('bubble--link') :
+          text.classList.remove('bubble--link');
+        text.innerHTML = url ? `<a href='${url}'>${quote}</a>` : quote;
+        text.style.opacity = 1;
+        clicked = false;
+      }, 250);
+    });
+
+    clicked = true;
+  }
+}
+
+</script>
+
+</body>
+</html>

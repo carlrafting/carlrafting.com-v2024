@@ -1,7 +1,0 @@
-_drafts/
-.DS_Store
-.sass-cache/
-.ruby-version
-.build/
-node_modules/
-*.log

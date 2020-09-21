@@ -1,6 +1,0 @@
-[submodule "autogrow"]
-	path = autogrow
-	url = https://github.com/carlrafting/autogrow.git
-[submodule "designgrid"]
-	path = designgrid
-	url = https://github.com/carlrafting/designgrid.git
