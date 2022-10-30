@@ -64,21 +64,6 @@ body {
   text-decoration: underline;
 }
 
-/*
-.bubble::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  margin-left: -10px;
-  border: 10px solid #eee;
-  border-top: 0;
-  border-left-color: transparent;
-  border-right-color: transparent;
-}
-*/
-
 </style>
 
 </head>
@@ -102,8 +87,6 @@ const text = document.querySelector('.robot-text');
 
 text.innerHTML = 'Hello Human, Click/Tap me!';
 
-// let history = [];
-
 const quotes = [
   { id: 1, quote: 'I\'ll be back!', url: 'https://www.imdb.com/title/tt0088247/' },
   { id: 2, quote: 'You\'ve angered the robot!' },
@@ -116,15 +99,15 @@ const quotes = [
 ];
 
 let clicked = false;
+let count = 0;
 
 robot.onclick = function robotOnClick() {
+  if (count >= quotes.length) {
+    count = 0;
+  }
   if (!clicked) {
-    const random = Math.floor(Math.random() * quotes.length);
-    const { quote, url } = [...quotes][random];
+    const { quote, url } = [...quotes][count];
 		
-		// history = history.concat([ quotes[random] ]);
-		// console.log(history);
-
     window.requestAnimationFrame(function () {
       text.style.opacity = 0;
       setTimeout(function () {
@@ -137,6 +120,7 @@ robot.onclick = function robotOnClick() {
       }, 250);
     });
 
+    count += 1;
     clicked = true;
   }
 }
