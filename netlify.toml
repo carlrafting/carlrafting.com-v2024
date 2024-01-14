@@ -1,4 +1,8 @@
 [[headers]]
     for = "/*"
         [headers.values]
-            X-Content-Type-Options = 'nosniff'
+            X-Content-Type-Options = "nosniff"
+            Content-Security-Policy = '''
+                default-src 'self',
+                script-src 'unsafe-inline'
+            '''
