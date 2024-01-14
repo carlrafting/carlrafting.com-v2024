@@ -3,15 +3,20 @@ layout: layout
 ---
 <style media="screen">
 .robot-emoji {
+  /* @start button styles */
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  /* @end button styles */
   font-size: 4em;
   display: inline-block;
-  margin-bottom: .1em;
+  margin-block-end: .1em;
 }
 .js-active .robot-emoji {
   cursor: pointer;
 }
 .robot-text {
-  color: #888;
   font-style: italic;
 }
 @keyframes fadein {
@@ -23,7 +28,7 @@ layout: layout
   }
 }
 .bubble {
-  background: #eee;
+  background: var(--color-box, rgba(0, 0, 0, 20%));
   padding: 1em;
   border-radius: 1em;
   /* position: relative; */
@@ -50,7 +55,7 @@ layout: layout
 
 <div class="container">
   <div class="robot">
-    <span class="robot-emoji">🤖</span>
+    <button class="robot-emoji" type="button">🤖</button>
     <br>
     <span class="robot-text bubble">
       Welcome!

@@ -8,8 +8,22 @@ title: Personal website of Carl Räfting | carlrafting.com
 <meta name="viewport" content="width=device-width">
 <link rel="me" href="https://mas.to/@carlrafting">
 <style media="screen">
+:root {
+  --color-text: #333;
+  --color-background: #fff;
+  --color-box: #eee;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: #fff;
+        --color-background: #222;
+        --color-box: #333;
+    }
+}
 html {
   color-scheme: light dark;
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 body {
   margin: 0;
