@@ -3,7 +3,7 @@
         [headers.values]
             X-Content-Type-Options = "nosniff"
             Content-Security-Policy = '''
-                default-src 'self',
-                style-src 'unsafe-inline',
+                default-src 'self';
+                style-src 'unsafe-inline';
                 script-src 'unsafe-inline'
             '''
