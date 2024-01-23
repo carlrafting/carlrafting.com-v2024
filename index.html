@@ -26,8 +26,23 @@ layout: layout
       opacity: 1;
     }
   }
-  to {
+
+  .bubble {
+    background: var(--color-box, rgba(0, 0, 0, 20%));
+    padding: 1em;
+    border-radius: 1em;
+    /* position: relative; */
+    transition: opacity 100ms, transform 100ms;
+    animation: fadein 250ms ease-in-out;
     opacity: 1;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .bubble--link {
+    color: #fff;
+    background: dodgerblue;
   }
 
   .bubble--link a {
