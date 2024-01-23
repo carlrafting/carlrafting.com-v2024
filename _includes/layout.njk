@@ -7,7 +7,10 @@ title: Personal website of Carl Räfting | carlrafting.com
 <title>{% if title %}{{ title }}{% else %}Untitled{% endif %}</title>
 <meta name="viewport" content="width=device-width">
 <link rel="me" href="https://mas.to/@carlrafting">
-<style media="screen">
+<script>
+  document.documentElement.className+='js-active';
+</script>
+<style media="all">
   :root {
     --color-text: #333;
     --color-background: #fff;
