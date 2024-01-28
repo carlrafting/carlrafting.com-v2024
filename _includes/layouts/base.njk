@@ -1,0 +1,59 @@
+---
+title: Personal website of Carl Räfting | carlrafting.com
+---
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>{% if title %}{{ title }}{% else %}Untitled{% endif %}</title>
+<meta name="viewport" content="width=device-width">
+<link rel="me" href="https://mas.to/@carlrafting">
+<script>
+  document.documentElement.className+='js-active';
+</script>
+<style media="all">
+  :root {
+    --color-text: #333;
+    --color-background: #fff;
+    --color-box: #eee;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-text: #fff;
+      --color-background: #222;
+      --color-box: #333;
+    }
+  }
+
+  html {
+    color-scheme: light dark;
+    color: var(--color-text);
+    background-color: var(--color-background);
+  }
+
+  body {
+    margin: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    line-height: 1.5;
+    font-size: 1.25em;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100svh;
+  }
+
+  .text-italic {
+    font-style: italic;
+  }
+</style>
+{{ content | safe }}
