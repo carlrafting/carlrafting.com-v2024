@@ -1,11 +1,16 @@
 ---
-title: Personal website of Carl Räfting | carlrafting.com
+title: Carl Räfting | carlrafting.com
+description: Personal website of Carl Räfting
 ---
 <!doctype html>
 <html lang="en">
 <meta charset="utf-8">
 <title>{% if title %}{{ title }}{% else %}Untitled{% endif %}</title>
 <meta name="viewport" content="width=device-width">
+{% if description %}
+<meta name="description" content="{{ description }}">
+{% endif %}
+<link rel="canonical" href="{{ page.url }}">
 <link rel="me" href="https://mas.to/@carlrafting">
 <script>
   document.documentElement.className+='js-active';
